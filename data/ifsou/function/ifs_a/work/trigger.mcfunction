@@ -24,7 +24,7 @@ function ifsou:ifs_a/work/recipe/pre_match \
     with storage ifsou:var running.R
 execute if data storage ifsou:var running.stop \
     run return fail
-# # start infushion
+# # start infusion
 # mix data
 data modify entity @s data."ifsou:running".items \
     set from storage ifsou:var running.items
