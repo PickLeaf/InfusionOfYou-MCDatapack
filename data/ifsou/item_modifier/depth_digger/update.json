@@ -1,0 +1,17 @@
+{
+    "function": "minecraft:set_attributes",
+    "replace": false,
+    "modifiers": [
+        {
+            "slot": "mainhand",
+            "attribute": "minecraft:block_break_speed",
+            "id": "temp:temp",
+            "operation": "add_value",
+            "amount": {
+                "type": "minecraft:storage",
+                "storage": "ifsou:var",
+                "path": "depth_digger"
+            }
+        }
+    ]
+}

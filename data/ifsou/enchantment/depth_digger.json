@@ -1,0 +1,33 @@
+{
+    "anvil_cost": 0,
+    "description": {
+        "translate": "ifsou.enhance.DepthDigger",
+        "color": "#308cb0"
+    },
+    "effects": {
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ifsou:ifs_a/enhance/depth_digger"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:pickaxes",
+    "exclusive_set": "#minecraft:exclusive_set/mining",
+    "primary_items": [],
+    "weight": 1
+}

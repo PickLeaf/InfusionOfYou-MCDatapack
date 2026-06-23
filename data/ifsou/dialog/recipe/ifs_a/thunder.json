@@ -1,0 +1,107 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.infusion.Thunder"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.Thunder.msg1",
+                "with": [
+                    {
+                        "translate": "commands.weather.set.thunder"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:gold_block"
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:lightning_rod",
+                        {
+                            "id": "minecraft:potion",
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:strong_swiftness"
+                                }
+                            }
+                        },
+                        {
+                            "id": "minecraft:trident",
+                            "components": {
+                                "minecraft:enchantments": {
+                                    "minecraft:channeling": 1
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:lightning_rod",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:potion",
+                "components": {
+                    "minecraft:potion_contents": {
+                        "potion": "minecraft:strong_swiftness"
+                    }
+                }
+            },
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:trident",
+                "components": {
+                    "minecraft:enchantments": {
+                        "minecraft:channeling": 1
+                    }
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.unconsume"
+                },
+                "width": 80
+            }
+        }
+    ]
+}

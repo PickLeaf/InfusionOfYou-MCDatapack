@@ -1,0 +1,39 @@
+{
+    "ifsou.mod_name": "PickLeaf Tech",
+    "ifsou.link": "[Link]",
+    "ifsou.load_unexpected_version": "(Be loaded to UNEXPECTED version!)",
+    "ifsou.missing_nutlet": "(Missing Nutlet Datapack)",
+    "ifsou.nutlet_low": "(Wrong Version of Nutlet Datapack)",
+    "ifsou.load_resourcepack": "",
+
+    "ifsou.advancement.root.description": "Sub-spells that can be written on the Page 2: help, recipe",
+    "ifsou.machine.IfsA.name": "Infusion Altar",
+    
+    "ifsou.info.wrong_block": "You must hit a %s to setup %s",
+    
+    "ifsou.dialog.infusionItem": "Item to do Infusion",
+    "ifsou.dialog.infusionMaterials": "Materials Infusion need",
+    "ifsou.dialog.enchantInfusion": "This effect of infushion is Enchantment",
+    "ifsou.dialog.unconsume": "Unconsume",
+    
+    "ifsou.infusion.Thunder": "Rain & Tunder",
+    "ifsou.dialog.Thunder.msg1": "Set the weather to rain & thunder",
+    
+    "ifsou.enhance.HorseFoot": "Horse's Foot",
+    "ifsou.dialog.HorseFoot.msg1": "Increase %s and %s of boots",
+    "ifsou.dialog.HorseFoot.msg2": "Need to sacrifice a %s within the altar area",
+    
+    "ifsou.enhance.DepthDigger": "Depth Digger",
+    "ifsou.dialog.DepthDigger.msg1": "The lower the altitude, the faster %s",
+    "ifsou.dialog.DepthDigger.msg2": "Conflicts with %s, %s enchantments",
+
+    "ifsou.enhance.TunnelBoring": "Tunnel Boring",
+    "ifsou.dialog.TunnelBoring.msg1": "Break blocks in a 3x3 area at once",
+
+    "ifsou.dialog.IfsA.title": "Infusion Guide",
+    "ifsou.dialog.IfsA.msg1": "Place the item to do Infusion in the %s at the center of the altar",
+    "ifsou.dialog.IfsA.msg2": "Place the materials needed for the Infusion in the %s within the range",
+    "ifsou.dialog.IfsA.msg3": "extinguish and relight the %s to start the Infusion ritual",
+    
+    "ifsou.dialog.IfsA.recipe.title": "Infusion Recipes"
+}

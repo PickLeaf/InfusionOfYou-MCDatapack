@@ -1,0 +1,25 @@
+{
+    "parent": "nutlet:spells",
+    "display": {
+        "title": "Infusion Altar",
+        "description": {
+            "translate": "pl_tech.advancement.root.description",
+            "fallback": "Sub-spells that can be written on the Page 2: help, recipe"
+        },
+        "icon": {
+            "id": "minecraft:gilded_blackstone"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "ifsou.mod_name": "注魔与你",
+    "ifsou.link": "[链接]",
+    "ifsou.load_unexpected_version": "(被加载到了非预期的版本！)",
+    "ifsou.missing_nutlet": "(缺失Nutlet数据包)",
+    "ifsou.nutlet_low": "(错误的Nutlet数据包版本)",
+    "ifsou.load_resourcepack": "",
+
+    "ifsou.advancement.root.description": "可以写在第2页上的子咒法: help, recipe",
+    "ifsou.machine.IfsA.name": "注魔祭坛",
+    
+    "ifsou.info.wrong_block": "你必须击打%s来设置%s",
+    
+    "ifsou.dialog.infusionItem": "被注魔的物品",
+    "ifsou.dialog.infusionMaterials": "注魔所需的材料",
+    "ifsou.dialog.enchantInfusion": "此注魔效果是一个魔咒",
+    "ifsou.dialog.unconsume": "不消耗",
+    
+    "ifsou.infusion.Thunder": "雷雨",
+    "ifsou.dialog.Thunder.msg1": "将天气设为雷雨",
+    
+    "ifsou.enhance.HorseFoot": "马脚",
+    "ifsou.dialog.HorseFoot.msg1": "增加靴子的%s和%s",
+    "ifsou.dialog.HorseFoot.msg2": "需要在祭坛范围内献祭一匹%s",
+    
+    "ifsou.enhance.DepthDigger": "深度矿工",
+    "ifsou.dialog.DepthDigger.msg1": "海拔越低%s越快",
+    "ifsou.dialog.DepthDigger.msg2": "与%s,%s附魔冲突",
+
+    "ifsou.enhance.TunnelBoring": "盾构",
+    "ifsou.dialog.TunnelBoring.msg1": "一次破坏3x3范围的方块",
+
+    "ifsou.dialog.IfsA.help.title": "注魔指南",
+    "ifsou.dialog.IfsA.help.msg1": "在祭坛中间的%s放置要被注魔的物品",
+    "ifsou.dialog.IfsA.help.msg2": "在范围内的%s放置注魔所需的材料",
+    "ifsou.dialog.IfsA.help.msg3": "熄灭并重新点亮%s以开启注魔仪式",
+    
+    "ifsou.dialog.IfsA.recipe.title": "注魔配方"
+}

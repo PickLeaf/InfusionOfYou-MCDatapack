@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.dialog.IfsA.help.title"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.IfsA.help.msg1",
+                "with": [
+                    {
+                        "translate": "block.minecraft.decorated_pot"
+                    }
+                ]
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.IfsA.help.msg2",
+                "with": [
+                    {
+                        "translate": "entity.minecraft.item_frame"
+                    }
+                ]
+            },
+            "width": 300
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.IfsA.help.msg3",
+                "with": [
+                    {
+                        "translate": "block.minecraft.redstone_torch"
+                    }
+                ]
+            },
+            "width": 300
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            }
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "ifsou:ifs_a/base"
+        }
+    ]
+}

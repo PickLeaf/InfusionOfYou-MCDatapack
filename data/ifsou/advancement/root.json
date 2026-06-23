@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "",
+        "description": "",
+        "icon": {
+            "id": "minecraft:gilded_blackstone"
+        },
+        "announce_to_chat": true,
+        "show_toast": true,
+        "background": "minecraft:block/blackstone"
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

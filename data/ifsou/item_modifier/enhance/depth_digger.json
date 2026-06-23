@@ -1,0 +1,7 @@
+{
+    "function": "minecraft:set_enchantments",
+    "add": false,
+    "enchantments": {
+        "ifsou:depth_digger": 1
+    }
+}

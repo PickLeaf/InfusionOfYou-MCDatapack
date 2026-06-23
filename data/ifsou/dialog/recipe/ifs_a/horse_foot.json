@@ -1,0 +1,177 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.enhance.HorseFoot"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.HorseFoot.msg1",
+                "with": [
+                    {
+                        "translate": "attribute.name.step_height"
+                    },
+                    {
+                        "translate": "attribute.name.jump_strength"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.HorseFoot.msg2",
+                "with": [
+                    {
+                        "translate": "entity.minecraft.horse"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionItem"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:leather_boots",
+                        "minecraft:copper_boots",
+                        "minecraft:chainmail_boots",
+                        "minecraft:golden_boots",
+                        "minecraft:iron_boots",
+                        "minecraft:diamond_boots",
+                        "minecraft:netherite_boots"
+                    ],
+                    "minecraft:container": [
+                        {
+                            "slot": 0,
+                            "item": "minecraft:leather_boots"
+                        },
+                        {
+                            "slot": 1,
+                            "item": "minecraft:copper_boots"
+                        },
+                        {
+                            "slot": 2,
+                            "item": "minecraft:chainmail_boots"
+                        },
+                        {
+                            "slot": 3,
+                            "item": "minecraft:golden_boots"
+                        },
+                        {
+                            "slot": 4,
+                            "item": "minecraft:iron_boots"
+                        },
+                        {
+                            "slot": 5,
+                            "item": "minecraft:diamond_boots"
+                        },
+                        {
+                            "slot": 6,
+                            "item": "minecraft:netherite_boots"
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:piston",
+                        {
+                            "id": "minecraft:feather",
+                            "count": 2
+                        },
+                        {
+                            "id": "minecraft:wind_charge",
+                            "count": 2
+                        },
+                        {
+                            "id": "minecraft:cod",
+                            "count": 2
+                        },
+                        {
+                            "id": "minecraft:rabbit_foot",
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:piston",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:feather",
+                "count": 2
+            },
+            "description": {
+                "contents": "2",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:wind_charge",
+                "count": 2
+            },
+            "description": {
+                "contents": "2",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:cod",
+                "count": 2
+            },
+            "description": {
+                "contents": "2",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:rabbit_foot",
+                "count": 2
+            },
+            "description": {
+                "contents": "2",
+                "width": 20
+            }
+        }
+    ]
+}

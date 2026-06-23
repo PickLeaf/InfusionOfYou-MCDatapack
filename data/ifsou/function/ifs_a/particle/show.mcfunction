@@ -1,0 +1,1 @@
+$particle minecraft:trail{color:$(color),target:$(Pos),duration:30} ~ ~ ~ 0.1 0.1 0.1 0 3

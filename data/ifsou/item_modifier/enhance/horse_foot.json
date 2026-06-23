@@ -1,0 +1,40 @@
+[
+    {
+        "function": "minecraft:set_attributes",
+        "replace": false,
+        "modifiers": [
+            {
+                "attribute": "minecraft:step_height",
+                "id": "ifsou:horse_foot",
+                "operation": "add_value",
+                "amount": 0.5,
+                "slot": "feet"
+            },
+            {
+                "attribute": "minecraft:jump_strength",
+                "id": "ifsou:horse_foot",
+                "operation": "add_value",
+                "amount": 0.15,
+                "slot": "feet"
+            },
+            {
+                "attribute": "minecraft:safe_fall_distance",
+                "id": "ifsou:horse_foot",
+                "operation": "add_value",
+                "amount": 1,
+                "slot": "feet"
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_lore",
+        "mode": "append",
+        "lore": [
+            {
+                "translate": "ifsou.enhance.HorseFoot",
+                "italic": false,
+                "color": "#00660f"
+            }
+        ]
+    }
+]

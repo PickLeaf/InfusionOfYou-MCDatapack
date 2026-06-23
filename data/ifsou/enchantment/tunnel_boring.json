@@ -1,0 +1,32 @@
+{
+    "anvil_cost": 0,
+    "description": {
+        "translate": "ifsou.enhance.TunnelBoring",
+        "color": "#667265"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ifsou:ifs_a/enhance/tunnel_boring"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:pickaxes",
+    "primary_items": [],
+    "weight": 1
+}

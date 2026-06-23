@@ -1,0 +1,29 @@
+{
+    "pack": {
+        "min_format": [
+            84
+        ],
+        "max_format": 102,
+        "description": [
+            {
+                "text": "Infusion Of U V0.1[MC26.x]\n"
+            },
+            {
+                "text": "By 刘拾叶 | PickLeaf",
+                "color": "gold"
+            }
+        ]
+    },
+    "overlays": {
+        "entries": [
+            {
+                "min_format": [
+                    101,
+                    1
+                ],
+                "max_format": 102,
+                "directory": "print_info"
+            }
+        ]
+    }
+}

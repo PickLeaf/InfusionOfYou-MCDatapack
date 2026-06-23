@@ -1,0 +1,102 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:redstone_torch"
+                }
+            },
+            "offsetY": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone"
+                }
+            },
+            "offsetY": -2,
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone"
+                }
+            },
+            "offsetY": -2,
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone"
+                }
+            },
+            "offsetY": -2,
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone"
+                }
+            },
+            "offsetY": -2,
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone_stairs"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone_stairs"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone_stairs"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:polished_blackstone_stairs"
+                }
+            },
+            "offsetY": -1,
+            "offsetX": -1,
+            "offsetZ": -1
+        }
+    ]
+}

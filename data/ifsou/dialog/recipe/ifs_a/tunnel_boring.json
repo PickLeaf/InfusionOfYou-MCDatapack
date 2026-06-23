@@ -1,0 +1,111 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.enhance.TunnelBoring"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.enchantInfusion"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.TunnelBoring.msg1"
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionItem"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:diamond_pickaxe",
+                        "minecraft:stone_pickaxe",
+                        "minecraft:golden_pickaxe",
+                        "minecraft:netherite_pickaxe",
+                        "minecraft:wooden_pickaxe",
+                        "minecraft:iron_pickaxe",
+                        "minecraft:copper_pickaxe"
+                    ],
+                    "minecraft:container": [
+                        {
+                            "slot": 0,
+                            "item": "minecraft:diamond_pickaxe"
+                        },
+                        {
+                            "slot": 1,
+                            "item": "minecraft:stone_pickaxe"
+                        },
+                        {
+                            "slot": 2,
+                            "item": "minecraft:golden_pickaxe"
+                        },
+                        {
+                            "slot": 3,
+                            "item": "minecraft:netherite_pickaxe"
+                        },
+                        {
+                            "slot": 4,
+                            "item": "minecraft:wooden_pickaxe"
+                        },
+                        {
+                            "slot": 5,
+                            "item": "minecraft:iron_pickaxe"
+                        },
+                        {
+                            "slot": 6,
+                            "item": "minecraft:copper_pickaxe"
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:copper_pickaxe",
+                        "minecraft:copper_pickaxe",
+                        "minecraft:copper_pickaxe",
+                        "minecraft:copper_pickaxe",
+                        "minecraft:copper_pickaxe",
+                        "minecraft:copper_pickaxe",
+                        "minecraft:copper_pickaxe",
+                        "minecraft:copper_pickaxe"
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:copper_pickaxe",
+            "description": {
+                "contents": "8",
+                "width": 20
+            }
+        }
+    ]
+}
