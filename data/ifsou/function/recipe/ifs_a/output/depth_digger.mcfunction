@@ -1,3 +1,11 @@
+execute if items block ~ ~ ~ container.0 \
+    *[minecraft:enchantments~[{enchantments:"#minecraft:exclusive_set/mining",levels:{min:1}}]] \
+    run return run \
+        function ifsou:ifs_a/work/fail
+execute unless items block ~ ~ ~ container.0 #minecraft:pickaxes \
+    run return run \
+        function ifsou:ifs_a/work/fail
+
 item modify block ~ ~ ~ container.0 ifsou:enhance/depth_digger
 data modify block ~ ~ ~ \
     item.components."minecraft:custom_data"."ifsou:enhance" \

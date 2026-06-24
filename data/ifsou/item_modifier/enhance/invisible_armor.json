@@ -1,0 +1,11 @@
+{
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+        {
+            "translate": "ifsou.enhance.InvisibleArmor",
+            "italic": false,
+            "color": "#d3eedb"
+        }
+    ]
+}

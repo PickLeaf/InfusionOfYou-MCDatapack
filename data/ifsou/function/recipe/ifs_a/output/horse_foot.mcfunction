@@ -1,3 +1,11 @@
+execute if items block ~ ~ ~ container.0 \
+    *[minecraft:custom_data~{"ifsou:enhance":["ifsou:horse_foot"]}] \
+    run return run \
+        function ifsou:ifs_a/work/fail
+execute unless items block ~ ~ ~ container.0 #minecraft:foot_armor \
+    run return run \
+        function ifsou:ifs_a/work/fail
+    
 item modify block ~ ~ ~ container.0 ifsou:enhance/horse_foot
 data modify block ~ ~ ~ \
     item.components."minecraft:custom_data"."ifsou:enhance" \

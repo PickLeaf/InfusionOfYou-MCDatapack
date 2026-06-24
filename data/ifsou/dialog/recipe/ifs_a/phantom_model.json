@@ -1,7 +1,7 @@
 {
     "type": "minecraft:notice",
     "title": {
-        "translate": "ifsou.enhance.PhantomModel"
+        "translate": "ifsou.infusion.PhantomModel"
     },
     "body": [
         {

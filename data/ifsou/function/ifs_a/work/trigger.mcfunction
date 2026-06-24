@@ -29,5 +29,6 @@ data modify entity @s data."ifsou:running".items \
     set from storage ifsou:var running.items
 data modify entity @s data."ifsou:running".R \
     set from storage ifsou:var running.R
-#
+# noise
+playsound item.armor.equip_generic block @a
 tag @s add IfsOU.infusing

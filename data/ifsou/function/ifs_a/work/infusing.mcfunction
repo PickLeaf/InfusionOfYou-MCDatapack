@@ -16,15 +16,12 @@ data modify storage ifsou:var running \
 execute unless data storage ifsou:var running.items[-1] \
     run return run \
         function ifsou:ifs_a/work/done
-# absorb item from frame
-data modify storage ifsou:var running.absorbingItem \
-    set from storage ifsou:var running.items[-1].id
-# flag
-data modify storage ifsou:var running.stop \
-    set value 1b
 # - particle pos
 execute if entity @p[distance=0..32] \
     run function ifsou:ifs_a/particle/mix_data
+# flag
+data modify storage ifsou:var running.stop \
+    set value 1b
 # as item frame
 execute positioned ~-6.5 ~-2.5 ~-6.5 \
     as @e[type=#ifsou:item_frame,dx=12,dy=2,dz=12] \

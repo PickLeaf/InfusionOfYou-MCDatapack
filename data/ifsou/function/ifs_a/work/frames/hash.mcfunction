@@ -8,9 +8,10 @@ execute unless items entity @s container.0 * \
 data modify storage ifsou:var running.items \
     append from entity @s Item
 # if custome item
-data modify storage ifsou:var \
-    running.items[-1].id set from storage ifsou:var \
-    running.items[-1].components."minecraft:custom_data".id
+execute if data storage ifsou:var \
+    running.items[-1].components."minecraft:custom_data".id \
+    run return run \
+        function ifsou:ifs_a/work/frames/custom_data
 # get count of item from previous frame
 scoreboard players set A IfsOU.Clac 0
 execute store result score A IfsOU.Clac \

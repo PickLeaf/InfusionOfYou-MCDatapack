@@ -1,25 +1,32 @@
 {
     "type": "minecraft:notice",
     "title": {
-        "translate": "ifsou.infusion.Thunder"
+        "translate": "ifsou.enhance.InvisibleArmor"
     },
     "body": [
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "ifsou.dialog.Thunder.msg1"
+                "translate": "ifsou.dialog.InvisibleArmor.msg1",
+                "with": [
+                    {
+                        "translate": "entity.minecraft.armor_stand"
+                    }
+                ]
             }
         },
         {
-            "type": "minecraft:item",
-            "item": {
-                "id": "minecraft:gold_block"
-            },
-            "description": {
-                "contents": {
-                    "translate": "ifsou.dialog.infusionItem"
-                },
-                "width": 100
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.InvisibleArmor.msg2",
+                "with": [
+                    {
+                        "translate": "entity.minecraft.armor_stand"
+                    },
+                    {
+                        "translate": "block.minecraft.decorated_pot"
+                    }
+                ]
             }
         },
         {
@@ -31,20 +38,13 @@
                         "translate": "ifsou.dialog.infusionMaterials"
                     },
                     "minecraft:bundle_contents": [
-                        "minecraft:lightning_rod",
+                        "minecraft:dragon_breath",
+                        "minecraft:ender_eye",
                         {
                             "id": "minecraft:potion",
                             "components": {
                                 "minecraft:potion_contents": {
-                                    "potion": "minecraft:strong_swiftness"
-                                }
-                            }
-                        },
-                        {
-                            "id": "minecraft:trident",
-                            "components": {
-                                "minecraft:enchantments": {
-                                    "minecraft:channeling": 1
+                                    "potion": "minecraft:long_invisibility"
                                 }
                             }
                         }
@@ -60,7 +60,15 @@
         },
         {
             "type": "minecraft:item",
-            "item": "minecraft:lightning_rod",
+            "item": "minecraft:dragon_breath",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:ender_eye",
             "description": {
                 "contents": "1",
                 "width": 20
@@ -79,23 +87,6 @@
             "description": {
                 "contents": "1",
                 "width": 20
-            }
-        },
-        {
-            "type": "minecraft:item",
-            "item": {
-                "id": "minecraft:trident",
-                "components": {
-                    "minecraft:enchantments": {
-                        "minecraft:channeling": 1
-                    }
-                }
-            },
-            "description": {
-                "contents": {
-                    "translate": "ifsou.dialog.unconsume"
-                },
-                "width": 80
             }
         }
     ]

@@ -6,5 +6,5 @@ $data modify storage ifsou:var running.R \
 # # uncommit command below, and start infusion, it will print hash key of recipe
 # $say $(hash)
 # # this will write to you book
-# $data modify block ~ ~ ~ item.components."minecraft:writable_book_content".pages \
+$data modify block ~ ~ ~ item.components."minecraft:writable_book_content".pages \
     append value {raw:'$(hash)'}

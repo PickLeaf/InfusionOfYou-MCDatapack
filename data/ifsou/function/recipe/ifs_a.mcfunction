@@ -63,6 +63,19 @@ data modify storage ifsou:recipe \
 data modify storage ifsou:recipe \
     IfsA.display append value \
     {button_label: {\
-        translate: "ifsou.enhance.PhantomModel",\
+        translate: "ifsou.infusion.PhantomModel",\
         "color": "#d5d4d4"},\
     dialog: "ifsou:recipe/ifs_a/phantom_model"}
+# 隐形盔甲
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:dragon_breath":1,"minecraft:ender_eye":1,"minecraft:potion":1}' set value \
+    {color: 13889243,\
+    preMatch: "ifsou:recipe/ifs_a/pre_match/invisible_armor",\
+    absorbing: "ifsou:recipe/ifs_a/absorbing/invisible_armor",\
+    output: "ifsou:recipe/ifs_a/output/invisible_armor"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.enhance.InvisibleArmor",\
+        "color": "#d3eedb"},\
+    dialog: "ifsou:recipe/ifs_a/invisible_armor"}

@@ -9,7 +9,7 @@ execute unless data storage ifsou:var \
 
 data remove storage ifsou:var running.stop
 # 存储命名牌的名称
-data modify entity @s data.data."ifsou:running".PhantomModel \
+data modify entity @s data."ifsou:running".PhantomModel \
     set from storage ifsou:var \
     running.items[{id:"minecraft:name_tag"}].components.\
     "minecraft:custom_name"

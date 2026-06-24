@@ -1,0 +1,14 @@
+{
+    "function": "minecraft:set_lore",
+    "mode": "append",
+    "lore": [
+        {
+            "translate": "ifsou.infusion.PhantomModel",
+            "italic": false,
+            "color": "#d5d4d4",
+            "extra": [
+                ": "
+            ]
+        }
+    ]
+}
