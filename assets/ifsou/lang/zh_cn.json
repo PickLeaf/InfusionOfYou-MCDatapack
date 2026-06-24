@@ -30,6 +30,11 @@
     "ifsou.enhance.TunnelBoring": "盾构",
     "ifsou.dialog.TunnelBoring.msg1": "一次破坏3x3范围的方块",
 
+    "ifsou.enhance.PhantomModel": "虚幻模型",
+    "ifsou.dialog.PhantomModel.msg1": "为物品附着虚假的物品模型",
+    "ifsou.dialog.PhantomModel.msg2": "由命名牌的名称指定",
+    "ifsou.dialog.PhantomModel.msg3": "使用F3+H查看完整的物品ID",
+
     "ifsou.dialog.IfsA.help.title": "注魔指南",
     "ifsou.dialog.IfsA.help.msg1": "在祭坛中间的%s放置要被注魔的物品",
     "ifsou.dialog.IfsA.help.msg2": "在范围内的%s放置注魔所需的材料",

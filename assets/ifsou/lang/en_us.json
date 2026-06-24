@@ -30,6 +30,11 @@
     "ifsou.enhance.TunnelBoring": "Tunnel Boring",
     "ifsou.dialog.TunnelBoring.msg1": "Break blocks in a 3x3 area at once",
 
+    "ifsou.enhance.PhantomModel": "Phantom Model",
+    "ifsou.dialog.PhantomModel.msg1": "Attach a fake item model to an item",
+    "ifsou.dialog.PhantomModel.msg2": "Specified by the name on the name tag",
+    "ifsou.dialog.PhantomModel.msg3": "Use F3+H to see the full item ID",
+
     "ifsou.dialog.IfsA.title": "Infusion Guide",
     "ifsou.dialog.IfsA.msg1": "Place the item to do Infusion in the %s at the center of the altar",
     "ifsou.dialog.IfsA.msg2": "Place the materials needed for the Infusion in the %s within the range",

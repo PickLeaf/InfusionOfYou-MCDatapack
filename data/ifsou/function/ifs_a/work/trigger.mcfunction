@@ -3,7 +3,6 @@
 # items: 输入的原料
 # R: 配方
 
-function pl_tech:stopwatch/begin
 tag @s add IfsOU.triggered
 # get cached recipe hash
 data modify storage ifsou:var running \
@@ -32,4 +31,3 @@ data modify entity @s data."ifsou:running".R \
     set from storage ifsou:var running.R
 #
 tag @s add IfsOU.infusing
-function pl_tech:stopwatch/end

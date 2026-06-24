@@ -1,0 +1,107 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.enhance.PhantomModel"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.PhantomModel.msg1"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.PhantomModel.msg2"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.PhantomModel.msg3"
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:structure_void",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionItem"
+                    }
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:ink_sac",
+                        {
+                            "id": "minecraft:ender_pearl",
+                            "count": 3
+                        },
+                        {
+                            "id": "minecraft:name_tag",
+                            "count": 1,
+                            "components": {
+                                "minecraft:custom_name": "minecraft:glass"
+                            }
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:ink_sac",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:ender_pearl",
+                "count": 3
+            },
+            "description": {
+                "contents": "3",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:name_tag",
+                "count": 1,
+                "components": {
+                    "minecraft:custom_name": "minecraft:glass"
+                }
+            },
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        }
+    ]
+}

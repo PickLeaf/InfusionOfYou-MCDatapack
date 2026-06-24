@@ -53,3 +53,16 @@ data modify storage ifsou:recipe \
         translate: "ifsou.enhance.TunnelBoring",\
         "color": "#667265"},\
     dialog: "ifsou:recipe/ifs_a/tunnel_boring"}
+# 幻影模型
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:ender_pearl":3,"minecraft:ink_sac":1,"minecraft:name_tag":1}' set value \
+    {color: 14013652,\
+    preMatch: "ifsou:recipe/ifs_a/pre_match/phantom_model",\
+    absorbing: "ifsou:recipe/ifs_a/absorbing/phantom_model",\
+    output: "ifsou:recipe/ifs_a/output/phantom_model"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.enhance.PhantomModel",\
+        "color": "#d5d4d4"},\
+    dialog: "ifsou:recipe/ifs_a/phantom_model"}

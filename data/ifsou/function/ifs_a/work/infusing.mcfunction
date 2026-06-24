@@ -1,3 +1,7 @@
+# # data."ifsou:running"
+# items: 输入的原料
+# R: 配方
+
 # make sure there a pot under altar
 execute unless block ~ ~-2 ~ minecraft:decorated_pot \
     run return run function ifsou:ifs_a/work/fail
