@@ -5,10 +5,10 @@ function nutlet:-m/hex_uuid
 data modify storage ifsou:var running.owner \
     set from storage nutlet:var uuid.hex
 # kill other marker
-function ifsou:ifs_a/enhance/tunnel_boring/kill \
+function ifsou:enhance/tunnel_boring/kill \
     with storage ifsou:var running
 #
 data modify storage nutlet:var tick set value \
-    {handler: "ifsou:ifs_a/enhance/tunnel_boring/tick",\
-    callback: "ifsou:ifs_a/enhance/tunnel_boring/callback"}
+    {handler: "ifsou:enhance/tunnel_boring/tick",\
+    callback: "ifsou:enhance/tunnel_boring/callback"}
 function nutlet:-m/tick

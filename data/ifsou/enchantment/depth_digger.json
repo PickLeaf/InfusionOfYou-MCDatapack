@@ -9,7 +9,22 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "ifsou:ifs_a/enhance/depth_digger"
+                    "function": "ifsou:enhance/depth_digger"
+                }
+            }
+        ],
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ifsou:enhance/depth_digger/tick"
+                },
+                "requirements": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "minecraft:periodic_tick": 2
+                    }
                 }
             }
         ]
@@ -24,7 +39,8 @@
     },
     "max_level": 1,
     "slots": [
-        "mainhand"
+        "mainhand",
+        "body"
     ],
     "supported_items": "#minecraft:pickaxes",
     "exclusive_set": "#minecraft:exclusive_set/mining",

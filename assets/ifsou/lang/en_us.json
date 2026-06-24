@@ -26,6 +26,7 @@
     "ifsou.enhance.DepthDigger": "Depth Digger",
     "ifsou.dialog.DepthDigger.msg1": "The lower the altitude, the faster %s",
     "ifsou.dialog.DepthDigger.msg2": "Conflicts with %s, %s enchantments",
+    "ifsou.actionbar.DepthDigger": "Mining Speed Increase: %s",
 
     "ifsou.enhance.TunnelBoring": "Tunnel Boring",
     "ifsou.dialog.TunnelBoring.msg1": "Break blocks in a 3x3 area at once",

@@ -9,7 +9,8 @@
                 "path": "nutlet[0]"
             },
             "range": {
-                "min": 2
+                "min": 2,
+                "max": 2
             }
         },
         {
@@ -20,18 +21,7 @@
                 "path": "nutlet[1]"
             },
             "range": {
-                "min": 0
-            }
-        },
-        {
-            "condition": "minecraft:value_check",
-            "value": {
-                "type": "minecraft:storage",
-                "storage": "ifsou:print",
-                "path": "nutlet[2]"
-            },
-            "range": {
-                "min": 0
+                "min": 1
             }
         }
     ]

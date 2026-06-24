@@ -3,9 +3,9 @@
     "replace": false,
     "modifiers": [
         {
-            "slot": "mainhand",
+            "slot": "body",
             "attribute": "minecraft:block_break_speed",
-            "id": "temp:temp",
+            "id": "ifsou:depth_digger",
             "operation": "add_value",
             "amount": {
                 "type": "minecraft:storage",

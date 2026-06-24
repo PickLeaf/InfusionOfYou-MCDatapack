@@ -26,6 +26,7 @@
     "ifsou.enhance.DepthDigger": "深度矿工",
     "ifsou.dialog.DepthDigger.msg1": "海拔越低%s越快",
     "ifsou.dialog.DepthDigger.msg2": "与%s,%s附魔冲突",
+    "ifsou.actionbar.DepthDigger": "挖掘速度增量: %s",
 
     "ifsou.enhance.TunnelBoring": "盾构",
     "ifsou.dialog.TunnelBoring.msg1": "一次破坏3x3范围的方块",
