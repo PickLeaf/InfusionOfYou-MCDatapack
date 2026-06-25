@@ -32,50 +32,11 @@
         {
             "type": "minecraft:item",
             "item": {
-                "id": "minecraft:bundle",
+                "id": "minecraft:iron_boots",
                 "components": {
                     "minecraft:item_name": {
-                        "translate": "ifsou.dialog.infusionItem"
-                    },
-                    "minecraft:bundle_contents": [
-                        "minecraft:leather_boots",
-                        "minecraft:copper_boots",
-                        "minecraft:chainmail_boots",
-                        "minecraft:golden_boots",
-                        "minecraft:iron_boots",
-                        "minecraft:diamond_boots",
-                        "minecraft:netherite_boots"
-                    ],
-                    "minecraft:container": [
-                        {
-                            "slot": 0,
-                            "item": "minecraft:leather_boots"
-                        },
-                        {
-                            "slot": 1,
-                            "item": "minecraft:copper_boots"
-                        },
-                        {
-                            "slot": 2,
-                            "item": "minecraft:chainmail_boots"
-                        },
-                        {
-                            "slot": 3,
-                            "item": "minecraft:golden_boots"
-                        },
-                        {
-                            "slot": 4,
-                            "item": "minecraft:iron_boots"
-                        },
-                        {
-                            "slot": 5,
-                            "item": "minecraft:diamond_boots"
-                        },
-                        {
-                            "slot": 6,
-                            "item": "minecraft:netherite_boots"
-                        }
-                    ]
+                        "translate": "ifsou.dialog.AnyBoot"
+                    }
                 }
             },
             "description": {

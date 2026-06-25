@@ -1,0 +1,22 @@
+[
+    {
+        "function": "minecraft:set_enchantments",
+        "add": false,
+        "enchantments": {
+            "minecraft:mending": 0
+        }
+    },
+    {
+        "function": "minecraft:set_enchantments",
+        "add": false,
+        "enchantments": {
+            "minecraft:vanishing_curse": 1
+        }
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:unbreakable": {}
+        }
+    }
+]

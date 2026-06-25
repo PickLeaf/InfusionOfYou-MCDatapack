@@ -28,7 +28,7 @@
                 "id": "minecraft:structure_void",
                 "components": {
                     "minecraft:item_name": {
-                        "translate": "ifsou.dialog.infusionItem"
+                        "translate": "ifsou.dialog.AnyItem"
                     }
                 }
             },

@@ -1,5 +1,5 @@
 execute if items block ~ ~ ~ container.0 \
-    *[minecraft:custom_data~{"ifsou:enhance":["ifsou:horse_foot"]}] \
+    *[minecraft:attribute_modifiers~{modifiers:{contains:[{id:"ifsou:horse_foot"}]}}] \
     run return fail
 execute unless items block ~ ~ ~ container.0 #minecraft:foot_armor \
     run return fail

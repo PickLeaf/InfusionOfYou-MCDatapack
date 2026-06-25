@@ -38,50 +38,11 @@
         {
             "type": "minecraft:item",
             "item": {
-                "id": "minecraft:bundle",
+                "id": "minecraft:iron_pickaxe",
                 "components": {
                     "minecraft:item_name": {
-                        "translate": "ifsou.dialog.infusionItem"
-                    },
-                    "minecraft:bundle_contents": [
-                        "minecraft:diamond_pickaxe",
-                        "minecraft:stone_pickaxe",
-                        "minecraft:golden_pickaxe",
-                        "minecraft:netherite_pickaxe",
-                        "minecraft:wooden_pickaxe",
-                        "minecraft:iron_pickaxe",
-                        "minecraft:copper_pickaxe"
-                    ],
-                    "minecraft:container": [
-                        {
-                            "slot": 0,
-                            "item": "minecraft:diamond_pickaxe"
-                        },
-                        {
-                            "slot": 1,
-                            "item": "minecraft:stone_pickaxe"
-                        },
-                        {
-                            "slot": 2,
-                            "item": "minecraft:golden_pickaxe"
-                        },
-                        {
-                            "slot": 3,
-                            "item": "minecraft:netherite_pickaxe"
-                        },
-                        {
-                            "slot": 4,
-                            "item": "minecraft:wooden_pickaxe"
-                        },
-                        {
-                            "slot": 5,
-                            "item": "minecraft:iron_pickaxe"
-                        },
-                        {
-                            "slot": 6,
-                            "item": "minecraft:copper_pickaxe"
-                        }
-                    ]
+                        "translate": "ifsou.dialog.AnyPickaxe"
+                    }
                 }
             },
             "description": {

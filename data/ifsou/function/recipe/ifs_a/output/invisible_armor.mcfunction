@@ -7,4 +7,4 @@ execute if data storage ifsou:var running.fail \
     run return run \
         function ifsou:ifs_a/work/fail
 
-playsound item.shield.break block @a
+playsound minecraft:item.shield.break block @a

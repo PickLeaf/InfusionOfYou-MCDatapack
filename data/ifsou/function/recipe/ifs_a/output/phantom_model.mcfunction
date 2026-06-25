@@ -12,11 +12,3 @@ data modify block ~ ~ ~ \
     data."ifsou:running".PhantomModel
 
 playsound minecraft:entity.ender_pearl.throw block @a
-
-execute if data block ~ ~ ~ \
-    item.components."minecraft:custom_data"\
-    {"ifsou:enhance":["ifsou:phantom_model"]} \
-    run return fail
-data modify block ~ ~ ~ \
-    item.components."minecraft:custom_data"."ifsou:enhance" \
-    append value "ifsou:phantom_model"

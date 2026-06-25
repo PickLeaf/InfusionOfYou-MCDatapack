@@ -1,0 +1,185 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.enhance.Unbreakable"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.Unbreakable.msg1"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.Unbreakable.msg2",
+                "with": [
+                    {
+                        "translate": "enchantment.minecraft.vanishing_curse"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:structure_void",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.AnyItem"
+                    },
+                    "minecraft:enchantments": {
+                        "minecraft:mending": 1
+                    }
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:enchanted_golden_apple",
+                        "minecraft:beacon",
+                        "minecraft:totem_of_undying",
+                        "minecraft:end_crystal",
+                        {
+                            "id": "minecraft:lingering_potion",
+                            "count": 1,
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:long_regeneration"
+                                }
+                            }
+                        },
+                        {
+                            "id": "minecraft:lingering_potion",
+                            "count": 1,
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:strong_healing"
+                                }
+                            }
+                        },
+                        {
+                            "id": "minecraft:axolotl_bucket",
+                            "count": 1,
+                            "components": {
+                                "minecraft:axolotl/variant": "blue",
+                                "minecraft:lore": [
+                                    {
+                                        "translate": "ifsou.enhance.Unbreakable.Blue",
+                                        "color": "blue",
+                                        "italic": false
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:enchanted_golden_apple",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:beacon",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:totem_of_undying",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:end_crystal",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:lingering_potion",
+                "count": 1,
+                "components": {
+                    "minecraft:potion_contents": {
+                        "potion": "minecraft:long_regeneration"
+                    }
+                }
+            },
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:lingering_potion",
+                "count": 1,
+                "components": {
+                    "minecraft:potion_contents": {
+                        "potion": "minecraft:strong_healing"
+                    }
+                }
+            },
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:axolotl_bucket",
+                "count": 1,
+                "components": {
+                    "minecraft:axolotl/variant": "blue",
+                    "minecraft:lore": [
+                        {
+                            "translate": "ifsou.enhance.Unbreakable.Blue",
+                            "color": "blue",
+                            "italic": false
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        }
+    ]
+}

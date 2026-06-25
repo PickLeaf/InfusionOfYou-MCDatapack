@@ -32,6 +32,23 @@
         {
             "type": "minecraft:item",
             "item": {
+                "id": "minecraft:turtle_helmet",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.AnyArmor"
+                    }
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
                 "id": "minecraft:bundle",
                 "components": {
                     "minecraft:item_name": {

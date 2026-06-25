@@ -79,3 +79,18 @@ data modify storage ifsou:recipe \
         translate: "ifsou.enhance.InvisibleArmor",\
         "color": "#d3eedb"},\
     dialog: "ifsou:recipe/ifs_a/invisible_armor"}
+# 无法破坏
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:axolotl_bucket":1,"minecraft:beacon":1,"minecraft:enchanted_golden_apple":1,"minecraft:end_crystal":1,"minecraft:lingering_potion":2,"minecraft:totem_of_undying":1}' set value \
+    {color: 4143932,\
+    preMatch: "ifsou:recipe/ifs_a/pre_match/unbreakable",\
+    absorbing: "ifsou:recipe/ifs_a/absorbing/unbreakable",\
+    output: "ifsou:recipe/ifs_a/output/unbreakable"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.enhance.Unbreakable",\
+        "color": "#3f3b3c"},\
+    dialog: "ifsou:recipe/ifs_a/unbreakable"}
+
+give @s axolotl_bucket[minecraft:axolotl/variant="blue"]

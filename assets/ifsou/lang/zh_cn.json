@@ -15,6 +15,10 @@
     "ifsou.dialog.infusionMaterials": "注魔所需的材料",
     "ifsou.dialog.enchantInfusion": "此注魔效果是一个魔咒",
     "ifsou.dialog.unconsume": "不消耗",
+    "ifsou.dialog.AnyBoot": "任意靴子",
+    "ifsou.dialog.AnyPickaxe": "任意镐",
+    "ifsou.dialog.AnyArmor": "任意盔甲",
+    "ifsou.dialog.AnyItem": "任意物品",
     
     "ifsou.infusion.Thunder": "雷雨",
     "ifsou.dialog.Thunder.msg1": "将天气设为雷雨",
@@ -39,7 +43,11 @@
     "ifsou.enhance.InvisibleArmor": "隐形盔甲",
     "ifsou.dialog.InvisibleArmor.msg1": "使%s上的盔甲隐形",
     "ifsou.dialog.InvisibleArmor.msg2": "%s需要紧靠着%s",
-    "ifsou.dialog.InvisibleArmor.infusionItem": "所有盔甲",
+
+    "ifsou.enhance.Unbreakable": "无法破坏",
+    "ifsou.dialog.Unbreakable.msg1": "使物品无法破坏",
+    "ifsou.dialog.Unbreakable.msg2": "但是物品会携带%s",
+    "ifsou.enhance.Unbreakable.Blue": "蓝色",
 
     "ifsou.dialog.IfsA.help.title": "注魔指南",
     "ifsou.dialog.IfsA.help.msg1": "在祭坛中间的%s放置要被注魔的物品",

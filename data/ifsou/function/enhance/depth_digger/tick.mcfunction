@@ -4,12 +4,7 @@ execute unless items entity @s weapon.mainhand \
     run return run \
         function ifsou:enhance/depth_digger/remove
 
-execute unless predicate {\
-    "condition":"minecraft:entity_properties",\
-    "entity":"this",\
-    "predicate":{\
-        "flags":{\
-            "is_sneaking":true}}} \
+execute unless predicate ifsou:is_sneaking \
     run return fail
     
 data modify storage ifsou:var running.speed \

@@ -15,7 +15,11 @@
     "ifsou.dialog.infusionMaterials": "Materials Infusion need",
     "ifsou.dialog.enchantInfusion": "This effect of infusion is Enchantment",
     "ifsou.dialog.unconsume": "Unconsume",
-    
+    "ifsou.dialog.AnyBoot": "Any Boot",
+    "ifsou.dialog.AnyPickaxe": "Any Pickaxe",
+    "ifsou.dialog.AnyArmor": "Any Armor",
+    "ifsou.dialog.AnyItem": "Any Item",
+
     "ifsou.infusion.Thunder": "Rain & Tunder",
     "ifsou.dialog.Thunder.msg1": "Set the weather to rain & thunder",
     
@@ -39,7 +43,11 @@
     "ifsou.enhance.InvisibleArmor": "Invisible Armor",
     "ifsou.dialog.InvisibleArmor.msg1": "Make the armor worn on %s invisible",
     "ifsou.dialog.InvisibleArmor.msg2": "%s needs to be right up against %s",
-    "ifsou.dialog.InvisibleArmor.infusionItem": "All Armors",
+
+    "ifsou.enhance.Unbreakable": "Unbreakable",
+    "ifsou.dialog.Unbreakable.msg1": "Make Item Unbreakable",
+    "ifsou.dialog.Unbreakable.msg2": "But the item will carry %s",
+    "ifsou.enhance.Unbreakable.Blue": "Blue",
 
     "ifsou.dialog.IfsA.title": "Infusion Guide",
     "ifsou.dialog.IfsA.msg1": "Place the item to do Infusion in the %s at the center of the altar",
