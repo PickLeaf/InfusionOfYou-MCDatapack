@@ -1,4 +1,4 @@
 tag @s remove IfsOU.dropedItem
-tp @s ~ ~-1 ~
 item replace entity @s container.0 \
-    from block ~ ~-2 ~ container.0
+    from block ~ ~ ~ container.0
+item replace block ~ ~ ~ container.0 with minecraft:air

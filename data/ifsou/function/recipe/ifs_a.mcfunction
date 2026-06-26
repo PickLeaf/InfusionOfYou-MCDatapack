@@ -92,5 +92,16 @@ data modify storage ifsou:recipe \
         translate: "ifsou.enhance.Unbreakable",\
         "color": "#3f3b3c"},\
     dialog: "ifsou:recipe/ifs_a/unbreakable"}
-
-give @s axolotl_bucket[minecraft:axolotl/variant="blue"]
+# 玻璃破坏者
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:amethyst_shard":1,"minecraft:glass":1,"minecraft:quartz":2}' set value \
+    {color: 14085612,\
+    preMatch: "ifsou:recipe/ifs_a/pre_match/glass_breaker",\
+    absorbing: "ifsou:recipe/ifs_a/absorbing/glass_breaker",\
+    output: "ifsou:recipe/ifs_a/output/glass_breaker"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.item.GlassBreaker",\
+        "color": "#d6edec"},\
+    dialog: "ifsou:recipe/ifs_a/glass_breaker"}

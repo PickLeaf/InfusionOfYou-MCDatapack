@@ -12,3 +12,5 @@ data modify block ~ ~ ~ \
     data."ifsou:running".PhantomModel
 
 playsound minecraft:entity.ender_pearl.throw block @a
+
+function ifsou:ifs_a/work/drop

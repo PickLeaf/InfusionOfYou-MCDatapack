@@ -16,3 +16,5 @@ playsound minecraft:block.beacon.activate block @a
 playsound minecraft:item.totem.use block @a
 playsound minecraft:entity.lingering_potion.throw block @a
 playsound minecraft:entity.axolotl.hurt block @a
+
+function ifsou:ifs_a/work/drop

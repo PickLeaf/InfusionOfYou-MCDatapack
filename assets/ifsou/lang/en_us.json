@@ -49,6 +49,9 @@
     "ifsou.dialog.Unbreakable.msg2": "But the item will carry %s",
     "ifsou.enhance.Unbreakable.Blue": "Blue",
 
+    "ifsou.item.GlassBreaker": "Glass Breaker",
+    "ifsou.dialog.GlassBreaker.msg1": "The speed of digging glass is really fast",
+
     "ifsou.dialog.IfsA.title": "Infusion Guide",
     "ifsou.dialog.IfsA.msg1": "Place the item to do Infusion in the %s at the center of the altar",
     "ifsou.dialog.IfsA.msg2": "Place the materials needed for the Infusion in the %s within the range",

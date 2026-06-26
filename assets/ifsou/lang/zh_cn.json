@@ -49,6 +49,9 @@
     "ifsou.dialog.Unbreakable.msg2": "但是物品会携带%s",
     "ifsou.enhance.Unbreakable.Blue": "蓝色",
 
+    "ifsou.item.GlassBreaker": "玻璃破坏者",
+    "ifsou.dialog.GlassBreaker.msg1": "挖掘玻璃的速度非常快",
+
     "ifsou.dialog.IfsA.help.title": "注魔指南",
     "ifsou.dialog.IfsA.help.msg1": "在祭坛中间的%s放置要被注魔的物品",
     "ifsou.dialog.IfsA.help.msg2": "在范围内的%s放置注魔所需的材料",

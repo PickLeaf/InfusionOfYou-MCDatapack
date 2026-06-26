@@ -10,3 +10,5 @@ item modify block ~ ~ ~ container.0 {\
 weather thunder 1d
 
 playsound minecraft:item.trident.thunder block @a
+
+function ifsou:ifs_a/work/drop

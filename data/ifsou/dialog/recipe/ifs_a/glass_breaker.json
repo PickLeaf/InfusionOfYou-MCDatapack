@@ -1,0 +1,78 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.item.GlassBreaker"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.GlassBreaker.msg1"
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:copper_pickaxe"
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:glass",
+                        "minecraft:amethyst_shard",
+                        {
+                            "id": "minecraft:quartz",
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:glass",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:amethyst_shard",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:quartz",
+                "count": 2
+            },
+            "description": {
+                "contents": "2",
+                "width": 20
+            }
+        }
+    ]
+}
