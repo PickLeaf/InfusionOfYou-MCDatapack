@@ -1,0 +1,29 @@
+{
+    "parent": "ifsou:root",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.PhantomModel.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.*.description",
+            "with": [
+                {
+                    "translate": "ifsou.infusion.PhantomModel"
+                }
+            ]
+        },
+        "icon": {
+            "id": "minecraft:nether_star"
+        }
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

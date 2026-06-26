@@ -1,0 +1,43 @@
+{
+    "parent": "ifsou:root",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.GlassBreaker.title",
+            "with": [
+                {
+                    "translate": "block.minecraft.piston"
+                }
+            ]
+        },
+        "description": {
+            "translate": "ifsou.advancement.GlassBreaker.description"
+        },
+        "icon": {
+            "id": "minecraft:copper_pickaxe",
+            "components": {
+                "minecraft:item_model": "ifsou:glass_breaker"
+            }
+        }
+    },
+    "criteria": {
+        "glass_breaker": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "id": "ifsou:glass_breaker"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "glass_breaker"
+        ]
+    ]
+}

@@ -12,5 +12,6 @@ data modify block ~ ~ ~ \
     data."ifsou:running".PhantomModel
 
 playsound minecraft:entity.ender_pearl.throw block @a
+advancement grant @a[distance=0..32] only ifsou:phantom_model
 
 function ifsou:ifs_a/work/drop

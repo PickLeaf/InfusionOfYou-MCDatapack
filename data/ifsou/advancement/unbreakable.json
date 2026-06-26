@@ -1,0 +1,33 @@
+{
+    "parent": "ifsou:root",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.Unbreakable.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.Unbreakable.description"
+        },
+        "icon": {
+            "id": "minecraft:bedrock"
+        }
+    },
+    "criteria": {
+        "unbreakable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:unbreakable": {}
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "unbreakable"
+        ]
+    ]
+}

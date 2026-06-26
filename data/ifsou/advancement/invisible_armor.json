@@ -1,0 +1,32 @@
+{
+    "parent": "ifsou:phantom_model",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.InvisibleArmor.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.*.description",
+            "with": [
+                {
+                    "translate": "ifsou.enhance.InvisibleArmor"
+                }
+            ]
+        },
+        "icon": {
+            "id": "minecraft:structure_void",
+            "components": {
+                "minecraft:item_model": "ifsou:transparent"
+            }
+        }
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

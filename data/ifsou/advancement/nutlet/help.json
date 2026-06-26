@@ -1,13 +1,12 @@
 {
-    "parent": "nutlet:spells",
+    "parent": "ifsou:nutlet/spell",
     "display": {
-        "title": "Infusion Altar",
+        "title": "Infusion Altar\nhelp",
         "description": {
-            "translate": "pl_tech.advancement.root.description",
-            "fallback": "Sub-spells that can be written on the Page 2: help, recipe"
+            "translate": "ifsou.advancement.nutlet/help.description"
         },
         "icon": {
-            "id": "minecraft:gilded_blackstone"
+            "id": "minecraft:lead"
         },
         "announce_to_chat": false,
         "show_toast": false

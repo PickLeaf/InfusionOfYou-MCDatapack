@@ -1,0 +1,46 @@
+{
+    "parent": "ifsou:root",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.HorseFoot.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.*.description",
+            "with": [
+                {
+                    "translate": "ifsou.enhance.HorseFoot"
+                }
+            ]
+        },
+        "icon": {
+            "id": "minecraft:horse_spawn_egg"
+        }
+    },
+    "criteria": {
+        "horse_foot": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:attribute_modifiers": {
+                                "modifiers": {
+                                    "contains": [
+                                        {
+                                            "id": "ifsou:horse_foot"
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "horse_foot"
+        ]
+    ]
+}

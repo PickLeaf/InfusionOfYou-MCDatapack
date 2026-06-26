@@ -1,12 +1,12 @@
 execute unless data storage nutlet:var {caller:"hit_block"} \
     run return fail
 
-advancement grant @s only ifsou:spell
+advancement grant @s only ifsou:nutlet/spell
 
 execute if data entity @s \
     SelectedItem.components."minecraft:writable_book_content".pages[{raw:"help"}] \
     run return run \
-        dialog show @s ifsou:ifs_a/help
+        function ifsou:ifs_a/sub/help
 execute if data entity @s \
     SelectedItem.components."minecraft:writable_book_content".pages[{raw:"recipe"}] \
     run return run \

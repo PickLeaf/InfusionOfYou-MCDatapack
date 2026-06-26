@@ -1,13 +1,33 @@
 {
-    "ifsou.mod_name": "PickLeaf Tech",
+    "ifsou.mod_name": "Infusion OF You",
     "ifsou.link": "[Link]",
     "ifsou.load_unexpected_version": "(Be loaded to UNEXPECTED version!)",
     "ifsou.missing_nutlet": "(Missing Nutlet Datapack)",
     "ifsou.nutlet_low": "(Wrong Version of Nutlet Datapack)",
     "ifsou.load_resourcepack": "",
-
-    "ifsou.advancement.root.description": "Sub-spells that can be written on the Page 2: help, recipe",
     "ifsou.machine.IfsA.name": "Infusion Altar",
+
+    "ifsou.advancement.nutlet/spell.description": "Sub-spells that can be written on the Page 2: help, recipe",
+    "ifsou.advancement.nutlet/help.description": "Do we really need this?",
+    "ifsou.advancement.nutlet/recipe.description": "No Researching",
+    "ifsou.advancement.root.description": "Infusion Altar Youth Edition",
+    "ifsou.advancement.*.description": "Infusnio %s",
+    
+    "ifsou.advancement.HorseFoot.title": "The truth(Horse's Feet) has come out",
+    "ifsou.advancement.DepthDigger.title": "The deeper, the better",
+    "ifsou.advancement.TunnelBoring.title": "Become a earthworm",
+
+    "ifsou.advancement.PhantomModel.title": "Crooked merchant",
+    "ifsou.advancement.InvisibleArmor.title": "Keep a low profile",
+
+    "ifsou.advancement.Unbreakable.title": "Unbeatable in the world",
+    "ifsou.advancement.Unbreakable.description": "Get unbreakable item",
+
+    "ifsou.advancement.Thunder.title": "I am the Thunder Man",
+    "ifsou.advancement.Thunder.description": "Infusnio, Summons a Thunderstorm",
+
+    "ifsou.advancement.GlassBreaker.title": "Did %s leave you behind?",
+    "ifsou.advancement.GlassBreaker.description": "Get Glass Breaker",
     
     "ifsou.info.wrong_block": "You must hit a %s to setup %s",
     
@@ -23,7 +43,7 @@
     "ifsou.infusion.Thunder": "Rain & Tunder",
     "ifsou.dialog.Thunder.msg1": "Set the weather to rain & thunder",
     
-    "ifsou.enhance.HorseFoot": "Horse's Foot",
+    "ifsou.enhance.HorseFoot": "Horse's Feet",
     "ifsou.dialog.HorseFoot.msg1": "Increase %s and %s of boots",
     "ifsou.dialog.HorseFoot.msg2": "Need to sacrifice a %s within the altar area",
     

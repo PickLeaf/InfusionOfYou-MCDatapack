@@ -1,0 +1,24 @@
+{
+    "parent": "ifsou:nutlet/help",
+    "display": {
+        "title": "Infusion Altar\nrecipe",
+        "description": {
+            "translate": "ifsou.advancement.nutlet/recipe.description"
+        },
+        "icon": {
+            "id": "minecraft:knowledge_book"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

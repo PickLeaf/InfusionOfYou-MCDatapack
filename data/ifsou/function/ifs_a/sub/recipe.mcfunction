@@ -1,3 +1,5 @@
+advancement grant @s only ifsou:nutlet/recipe
+
 data modify storage nutlet:var list.list \
     set from storage ifsou:recipe IfsA.display
 data modify storage nutlet:var list.handler \

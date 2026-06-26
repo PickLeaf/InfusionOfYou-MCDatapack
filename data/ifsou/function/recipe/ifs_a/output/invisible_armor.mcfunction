@@ -8,5 +8,6 @@ execute if data storage ifsou:var running.fail \
         function ifsou:ifs_a/work/fail
 
 playsound minecraft:item.shield.break block @a
+advancement grant @a[distance=0..32] only ifsou:invisible_armor
 
 function ifsou:ifs_a/work/drop

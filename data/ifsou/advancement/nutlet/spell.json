@@ -1,17 +1,16 @@
 {
+    "parent": "nutlet:spells",
     "display": {
-        "title": {
-            "translate": "ifsou.mod_name"
-        },
+        "title": "Infusion Altar",
         "description": {
-            "translate": "ifsou.advancement.root.description"
+            "translate": "ifsou.advancement.nutlet/spell.description",
+            "fallback": "Load Resourcepack, please!"
         },
         "icon": {
             "id": "minecraft:gilded_blackstone"
         },
-        "announce_to_chat": true,
-        "show_toast": true,
-        "background": "minecraft:block/blackstone"
+        "announce_to_chat": false,
+        "show_toast": false
     },
     "criteria": {
         "impossible": {

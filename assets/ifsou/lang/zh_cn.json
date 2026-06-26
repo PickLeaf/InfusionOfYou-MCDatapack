@@ -5,10 +5,30 @@
     "ifsou.missing_nutlet": "(缺失Nutlet数据包)",
     "ifsou.nutlet_low": "(错误的Nutlet数据包版本)",
     "ifsou.load_resourcepack": "",
-
-    "ifsou.advancement.root.description": "可以写在第2页上的子咒法: help, recipe",
     "ifsou.machine.IfsA.name": "注魔祭坛",
+
+    "ifsou.advancement.nutlet/spell.description": "可以写在第2页上的子咒法: help, recipe",
+    "ifsou.advancement.nutlet/help.description": "真的需要这个吗？",
+    "ifsou.advancement.nutlet/recipe.description": "不需要研究",
+    "ifsou.advancement.root.description": "注魔祭坛青春版",
+    "ifsou.advancement.*.description": "进行%s注魔",
     
+    "ifsou.advancement.HorseFoot.title": "露出马脚了",
+    "ifsou.advancement.DepthDigger.title": "越深越好",
+    "ifsou.advancement.TunnelBoring.title": "蚯蚓这一块",
+
+    "ifsou.advancement.PhantomModel.title": "奸商",
+    "ifsou.advancement.InvisibleArmor.title": "保持低调",
+    
+    "ifsou.advancement.Unbreakable.title": "天下无敌",
+    "ifsou.advancement.Unbreakable.description": "获得无法破坏的物品",
+    
+    "ifsou.advancement.Thunder.title": "我是雷霆侠",
+    "ifsou.advancement.Thunder.description": "注魔，使雷雨降临",
+
+    "ifsou.advancement.GlassBreaker.title": "你被%s落下了吗？",
+    "ifsou.advancement.GlassBreaker.description": "获得玻璃破坏者",
+
     "ifsou.info.wrong_block": "你必须击打%s来设置%s",
     
     "ifsou.dialog.infusionItem": "被注魔的物品",

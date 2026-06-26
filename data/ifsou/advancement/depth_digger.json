@@ -1,0 +1,45 @@
+{
+    "parent": "ifsou:tunnel_boring",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.DepthDigger.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.*.description",
+            "with": [
+                {
+                    "translate": "ifsou.enhance.DepthDigger"
+                }
+            ]
+        },
+        "icon": {
+            "id": "minecraft:deepslate"
+        }
+    },
+    "criteria": {
+        "depth_digger": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "ifsou:depth_digger",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "depth_digger"
+        ]
+    ]
+}

@@ -1,3 +1,5 @@
+# advancement
+advancement grant @s only ifsou:root
 # outline
 function ifsou:ifs_a/schematic/lime_area
 # place command block in world
