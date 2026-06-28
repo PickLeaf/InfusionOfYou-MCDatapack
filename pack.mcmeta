@@ -19,6 +19,14 @@
             {
                 "min_format": [
                     101,
+                    2
+                ],
+                "max_format": 99999,
+                "directory": "26.2-snapshot-1"
+            },
+            {
+                "min_format": [
+                    101,
                     1
                 ],
                 "max_format": 107,
