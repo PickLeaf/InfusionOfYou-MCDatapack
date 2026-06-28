@@ -54,6 +54,7 @@
 
     "ifsou.enhance.TunnelBoring": "盾构",
     "ifsou.dialog.TunnelBoring.msg1": "一次破坏3x3范围的方块",
+    "ifsou.dialog.TunnelBoring.msg2": "只对能大量自然生成的石头类方块有效",
 
     "ifsou.infusion.PhantomModel": "虚幻模型",
     "ifsou.dialog.PhantomModel.msg1": "为物品附着虚假的物品模型",

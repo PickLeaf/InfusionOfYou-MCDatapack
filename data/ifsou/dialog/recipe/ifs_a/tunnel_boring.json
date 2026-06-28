@@ -17,6 +17,12 @@
             }
         },
         {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.TunnelBoring.msg2"
+            }
+        },
+        {
             "type": "minecraft:item",
             "item": {
                 "id": "minecraft:iron_pickaxe",

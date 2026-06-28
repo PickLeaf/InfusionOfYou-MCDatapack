@@ -54,6 +54,7 @@
 
     "ifsou.enhance.TunnelBoring": "Tunnel Boring",
     "ifsou.dialog.TunnelBoring.msg1": "Break blocks in a 3x3 area at once",
+    "ifsou.dialog.TunnelBoring.msg2": "Only works on stone-type blocks that can naturally generate in large amounts",
 
     "ifsou.infusion.PhantomModel": "Phantom Model",
     "ifsou.dialog.PhantomModel.msg1": "Attach a fake item model to an item",
