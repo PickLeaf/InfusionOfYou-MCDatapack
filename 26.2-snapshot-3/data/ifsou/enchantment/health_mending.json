@@ -1,29 +1,21 @@
 {
     "anvil_cost": 0,
     "description": {
-        "translate": "ifsou.enhance.DepthDigger",
-        "color": "#308cb0"
+        "translate": "ifsou.enhance.HealthMending",
+        "color": "#614458"
     },
     "effects": {
-        "minecraft:location_changed": [
-            {
-                "effect": {
-                    "type": "minecraft:run_function",
-                    "function": "ifsou:enhance/depth_digger"
-                }
-            }
-        ],
         "minecraft:tick": [
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "ifsou:enhance/depth_digger/tick"
+                    "function": "ifsou:enhance/health_mending/tick"
                 },
                 "requirements": {
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "periodic_tick": 2
+                        "minecraft:periodic_tick": 20
                     }
                 }
             }
@@ -39,11 +31,10 @@
     },
     "max_level": 1,
     "slots": [
-        "mainhand",
-        "body"
+        "mainhand"
     ],
-    "supported_items": "#minecraft:pickaxes",
-    "exclusive_set": "#minecraft:exclusive_set/mining",
+    "supported_items": "minecraft:netherite_hoe",
+    "exclusive_set": "#ifsou:exclusive_set/health_mending",
     "primary_items": [],
     "weight": 1
 }

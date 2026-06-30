@@ -1,0 +1,180 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.item.Multitool"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.Multitool.msg1"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.Multitool.msg2"
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:totem_of_undying"
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:netherite_axe",
+                        "minecraft:netherite_pickaxe",
+                        "minecraft:netherite_shovel",
+                        "minecraft:netherite_hoe",
+                        "minecraft:shears",
+                        {
+                            "id": "copper_pickaxe",
+                            "count": 1,
+                            "components": {
+                                "minecraft:item_model": "ifsou:glass_breaker",
+                                "custom_data": {
+                                    "id": "ifsou:glass_breaker"
+                                },
+                                "minecraft:item_name": {
+                                    "translate": "ifsou.item.GlassBreaker"
+                                },
+                                "minecraft:enchantments": {
+                                    "minecraft:silk_touch": 1
+                                },
+                                "enchantment_glint_override": false
+                            }
+                        },
+                        "minecraft:nether_star",
+                        "minecraft:heavy_core",
+                        {
+                            "id": "minecraft:lingering_potion",
+                            "count": 1,
+                            "components": {
+                                "minecraft:potion_contents": {
+                                    "potion": "minecraft:oozing"
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:netherite_axe",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:netherite_pickaxe",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:netherite_shovel",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:netherite_hoe",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:shears",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "copper_pickaxe",
+                "count": 1,
+                "components": {
+                    "minecraft:item_model": "ifsou:glass_breaker",
+                    "custom_data": {
+                        "id": "ifsou:glass_breaker"
+                    },
+                    "minecraft:item_name": {
+                        "translate": "ifsou.item.GlassBreaker"
+                    },
+                    "minecraft:enchantments": {
+                        "minecraft:silk_touch": 1
+                    },
+                    "enchantment_glint_override": false
+                }
+            },
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:nether_star",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:heavy_core",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:lingering_potion",
+                "count": 1,
+                "components": {
+                    "minecraft:potion_contents": {
+                        "potion": "minecraft:oozing"
+                    }
+                }
+            },
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        }
+    ]
+}

@@ -9,7 +9,8 @@
         },
         "icon": {
             "id": "minecraft:bedrock"
-        }
+        },
+        "frame": "challenge"
     },
     "criteria": {
         "unbreakable": {

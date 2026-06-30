@@ -12,6 +12,7 @@
     "ifsou.advancement.nutlet/recipe.description": "No Researching",
     "ifsou.advancement.root.description": "Infusion Altar Youth Edition",
     "ifsou.advancement.*.description": "Infusnio %s",
+    "ifsou.advancement.*2.description": "Obtain %s",
     
     "ifsou.advancement.HorseFoot.title": "The truth(Horse's Feet) has come out",
     "ifsou.advancement.DepthDigger.title": "The deeper, the better",
@@ -27,7 +28,7 @@
     "ifsou.advancement.Thunder.description": "Infusnio, Summons a Thunderstorm",
 
     "ifsou.advancement.GlassBreaker.title": "Did %s leave you behind?",
-    "ifsou.advancement.GlassBreaker.description": "Get Glass Breaker",
+    "ifsou.advancement.Multitool.title": "What an ugly thing",
     
     "ifsou.info.wrong_block": "You must hit a %s to setup %s",
     
@@ -72,6 +73,11 @@
 
     "ifsou.item.GlassBreaker": "Glass Breaker",
     "ifsou.dialog.GlassBreaker.msg1": "The speed of digging glass is really fast",
+
+    "ifsou.item.Multitool": "Multitool",
+    "ifsou.dialog.Multitool.msg1": "The speed of digging all blocks is fast",
+    "ifsou.dialog.Multitool.msg2": "Will absorb the user's health to restore durability",
+    "ifsou.enhance.HealthMending": "Health Mending",
 
     "ifsou.dialog.IfsA.title": "Infusion Guide",
     "ifsou.dialog.IfsA.msg1": "Place the item to do Infusion in the %s at the center of the altar",

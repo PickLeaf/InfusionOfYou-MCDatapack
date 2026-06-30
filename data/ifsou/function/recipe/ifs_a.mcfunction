@@ -105,3 +105,15 @@ data modify storage ifsou:recipe \
         translate: "ifsou.item.GlassBreaker",\
         "color": "#d6edec"},\
     dialog: "ifsou:recipe/ifs_a/glass_breaker"}
+# 多合一工具
+data modify storage ifsou:recipe \
+    IfsA.running.'{"ifsou:glass_breaker":1,"minecraft:heavy_core":1,"minecraft:lingering_potion":1,"minecraft:nether_star":1,"minecraft:netherite_axe":1,"minecraft:netherite_hoe":1,"minecraft:netherite_pickaxe":1,"minecraft:netherite_shovel":1,"minecraft:shears":1}' set value \
+    {color: 6374488,\
+    preMatch: "ifsou:recipe/ifs_a/pre_match/multitool",\
+    output: "ifsou:recipe/ifs_a/output/multitool"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.item.Multitool",\
+        "color": "#614458"},\
+    dialog: "ifsou:recipe/ifs_a/multitool"}

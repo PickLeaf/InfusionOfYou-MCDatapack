@@ -23,7 +23,7 @@
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
                     "predicate": {
-                        "periodic_tick": 2
+                        "minecraft:periodic_tick": 2
                     }
                 }
             }

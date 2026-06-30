@@ -12,6 +12,7 @@
     "ifsou.advancement.nutlet/recipe.description": "不需要研究",
     "ifsou.advancement.root.description": "注魔祭坛青春版",
     "ifsou.advancement.*.description": "进行%s注魔",
+    "ifsou.advancement.*2.description": "获得%s",
     
     "ifsou.advancement.HorseFoot.title": "露出马脚了",
     "ifsou.advancement.DepthDigger.title": "越深越好",
@@ -27,7 +28,7 @@
     "ifsou.advancement.Thunder.description": "注魔，使雷雨降临",
 
     "ifsou.advancement.GlassBreaker.title": "你被%s落下了吗？",
-    "ifsou.advancement.GlassBreaker.description": "获得玻璃破坏者",
+    "ifsou.advancement.Multitool.title": "何等丑陋的东西",
 
     "ifsou.info.wrong_block": "你必须击打%s来设置%s",
     
@@ -72,6 +73,11 @@
 
     "ifsou.item.GlassBreaker": "玻璃破坏者",
     "ifsou.dialog.GlassBreaker.msg1": "挖掘玻璃的速度非常快",
+
+    "ifsou.item.Multitool": "多合一工具",
+    "ifsou.dialog.Multitool.msg1": "挖掘所有方块的速度都非常快",
+    "ifsou.dialog.Multitool.msg2": "会汲取使用者的生命恢复耐久度",
+    "ifsou.enhance.HealthMending": "生命修补",
 
     "ifsou.dialog.IfsA.help.title": "注魔指南",
     "ifsou.dialog.IfsA.help.msg1": "在祭坛中间的%s放置要被注魔的物品",

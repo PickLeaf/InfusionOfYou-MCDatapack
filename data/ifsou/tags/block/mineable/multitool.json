@@ -1,0 +1,15 @@
+{
+    "replace": false,
+    "values": [
+        "#minecraft:mineable/axe",
+        "#minecraft:mineable/shovel",
+        "#minecraft:mineable/pickaxe",
+        "#minecraft:mineable/hoe",
+        "#minecraft:wool",
+        "#minecraft:leaves",
+        "#ifsou:glass",
+        "minecraft:glow_lichen",
+        "minecraft:vine",
+        "minecraft:cobweb"
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:mending",
+        "ifsou:health_mending"
+    ]
+}

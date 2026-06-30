@@ -1,0 +1,52 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:netherite_hoe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:max_stack_size": 1,
+                                "minecraft:max_damage": 8553,
+                                "minecraft:damage": 0,
+                                "minecraft:item_model": "ifsou:multitool",
+                                "custom_data": {
+                                    "id": "ifsou:multitool"
+                                },
+                                "minecraft:tool": {
+                                    "damage_per_block": 1,
+                                    "rules": [
+                                        {
+                                            "blocks": "#ifsou:mineable/multitool",
+                                            "speed": 12,
+                                            "correct_for_drops": true
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "target": "item_name",
+                            "name": {
+                                "translate": "ifsou.item.Multitool"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_enchantments",
+                            "add": false,
+                            "enchantments": {
+                                "ifsou:health_mending": 1,
+                                "minecraft:silk_touch": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
