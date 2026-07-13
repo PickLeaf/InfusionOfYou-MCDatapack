@@ -1,0 +1,13 @@
+{
+    "function": "minecraft:set_attributes",
+    "replace": false,
+    "modifiers": [
+        {
+            "slot": "body",
+            "attribute": "minecraft:jump_strength",
+            "id": "ifsou:horse_foot_temp",
+            "operation": "add_value",
+            "amount": 0
+        }
+    ]
+}

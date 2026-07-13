@@ -1,5 +1,7 @@
 execute if items block ~ ~ ~ container.0 \
-    *[minecraft:custom_data~{"ifsou:enhance":["ifsou:horse_foot"]}] \
+    *[minecraft:enchantments~[{\
+        enchantments: "ifsou:horse_foot",\
+        levels: {min: 1}}]] \
     run return run \
         function ifsou:ifs_a/work/fail
 execute unless items block ~ ~ ~ container.0 #minecraft:foot_armor \

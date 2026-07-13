@@ -7,6 +7,12 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
+                "translate": "ifsou.dialog.enchantInfusion"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
                 "translate": "ifsou.dialog.HorseFoot.msg1",
                 "with": [
                     {

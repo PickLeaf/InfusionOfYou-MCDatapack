@@ -2,6 +2,8 @@
     "replace": false,
     "values": [
         "ifsou:depth_digger",
-        "ifsou:tunnel_boring"
+        "ifsou:tunnel_boring",
+        "ifsou:health_mending",
+        "ifsou:horse_foot"
     ]
 }

@@ -7,7 +7,7 @@ execute unless items entity @s weapon.mainhand \
 execute unless predicate ifsou:is_sneaking \
     run return fail
 
-execute unless entity @s[x_rotation=-90..-89] \
+execute unless entity @s[x_rotation=-90] \
     run return fail
     
 data modify storage ifsou:var running.speed \

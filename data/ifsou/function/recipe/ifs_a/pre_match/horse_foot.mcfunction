@@ -1,5 +1,7 @@
 execute if items block ~ ~ ~ container.0 \
-    *[minecraft:attribute_modifiers~{modifiers:{contains:[{id:"ifsou:horse_foot"}]}}] \
+    *[minecraft:enchantments~[{\
+        enchantments: "ifsou:horse_foot",\
+        levels: {min: 1}}]] \
     run return fail
 execute unless items block ~ ~ ~ container.0 #minecraft:foot_armor \
     run return fail

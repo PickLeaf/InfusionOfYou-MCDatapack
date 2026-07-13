@@ -1,0 +1,35 @@
+[
+    {
+        "function": "minecraft:set_enchantments",
+        "add": false,
+        "enchantments": {
+            "ifsou:horse_foot": 0
+        }
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "replace": false,
+        "modifiers": [
+            {
+                "slot": "body",
+                "attribute": "minecraft:jump_strength",
+                "id": "ifsou:horse_foot_temp",
+                "operation": "add_value",
+                "amount": 0
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_attributes",
+        "replace": false,
+        "modifiers": [
+            {
+                "slot": "body",
+                "attribute": "minecraft:step_height",
+                "id": "ifsou:horse_foot_temp",
+                "operation": "add_value",
+                "amount": 0
+            }
+        ]
+    }
+]
