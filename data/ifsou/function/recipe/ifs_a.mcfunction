@@ -117,3 +117,16 @@ data modify storage ifsou:recipe \
         translate: "ifsou.item.Multitool",\
         "color": "#614458"},\
     dialog: "ifsou:recipe/ifs_a/multitool"}
+# 奔流
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:diamond":1,"minecraft:firework_rocket":1,"minecraft:nether_wart":1,"minecraft:sticky_piston":1,"minecraft:water_bucket":1}' set value \
+    {color: 2004212,\
+    preMatch: "ifsou:recipe/ifs_a/pre_match/rushing_stream",\
+    absorbing: "ifsou:recipe/ifs_a/absorbing/rushing_stream",\
+    output: "ifsou:recipe/ifs_a/output/rushing_stream"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.enhance.RushingStream",\
+        "color": "#1e94f4"},\
+    dialog: "ifsou:recipe/ifs_a/rushing_stream"}

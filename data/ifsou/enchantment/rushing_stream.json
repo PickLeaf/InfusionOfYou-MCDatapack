@@ -1,0 +1,33 @@
+{
+    "anvil_cost": 0,
+    "description": {
+        "translate": "ifsou.enhance.RushingStream",
+        "color": "#1e94f4"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ifsou:enhance/rushing_stream"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:axes",
+    "exclusive_set": "#minecraft:exclusive_set/mining",
+    "primary_items": [],
+    "weight": 1
+}

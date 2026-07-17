@@ -4,7 +4,8 @@ data modify block ~ ~ ~ item.components."minecraft:item_model" \
 
 # remove
 data remove block ~ ~ ~ \
-    item.components."minecraft:lore"[{"translate": "ifsou.infusion.PhantomModel"}]
+    item.components."minecraft:lore"[{\
+    "translate": "ifsou.infusion.PhantomModel"}]
 item modify block ~ ~ ~ container.0 ifsou:enhance/phantom_model
 data modify block ~ ~ ~ \
     item.components."minecraft:lore"[-1].extra \

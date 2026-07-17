@@ -1,5 +1,7 @@
 execute if items block ~ ~ ~ container.0 \
-    *[minecraft:enchantments~[{enchantments:"ifsou:tunnel_boring",levels:{min:1}}]] \
+    *[minecraft:enchantments~[{\
+        enchantments:"ifsou:tunnel_boring",\
+        levels:{min:1}}]] \
     run return run \
         function ifsou:ifs_a/work/fail
 execute unless items block ~ ~ ~ container.0 #minecraft:pickaxes \

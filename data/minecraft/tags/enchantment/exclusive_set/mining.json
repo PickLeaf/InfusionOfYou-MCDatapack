@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "ifsou:depth_digger"
+        "ifsou:depth_digger",
+        "ifsou:rushing_stream"
     ]
 }

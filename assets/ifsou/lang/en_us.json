@@ -35,9 +35,12 @@
     "ifsou.dialog.infusionItem": "Item to do Infusion",
     "ifsou.dialog.infusionMaterials": "Materials Infusion need",
     "ifsou.dialog.enchantInfusion": "This effect of infusion is Enchantment",
+    "ifsou.dialog.Conflict": "Conflicts with %s enchantments",
     "ifsou.dialog.unconsume": "Unconsume",
     "ifsou.dialog.AnyBoot": "Any Boot",
     "ifsou.dialog.AnyPickaxe": "Any Pickaxe",
+    "ifsou.dialog.AnyAxe": "Any Axe",
+    "ifsou.dialog.AnyShovel": "Any Shovel",
     "ifsou.dialog.AnyArmor": "Any Armor",
     "ifsou.dialog.AnyItem": "Any Item",
 
@@ -50,7 +53,6 @@
     
     "ifsou.enhance.DepthDigger": "Depth Digger",
     "ifsou.dialog.DepthDigger.msg1": "The lower the altitude, the faster %s",
-    "ifsou.dialog.DepthDigger.msg2": "Conflicts with %s, %s enchantments",
     "ifsou.actionbar.DepthDigger": "Mining Speed Increase: %s",
 
     "ifsou.enhance.TunnelBoring": "Tunnel Boring",
@@ -78,6 +80,9 @@
     "ifsou.dialog.Multitool.msg1": "The speed of digging all blocks is fast",
     "ifsou.dialog.Multitool.msg2": "Will absorb the user's health to restore durability",
     "ifsou.enhance.HealthMending": "Health Mending",
+    
+    "ifsou.enhance.RushingStream": "Rushing Stream",
+    "ifsou.dialog.RushingStream.msg1": "When chopping a tree, start breaking the block farthest from the target block first",
 
     "ifsou.dialog.IfsA.title": "Infusion Guide",
     "ifsou.dialog.IfsA.msg1": "Place the item to do Infusion in the %s at the center of the altar",

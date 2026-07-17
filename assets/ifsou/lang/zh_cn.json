@@ -35,9 +35,12 @@
     "ifsou.dialog.infusionItem": "被注魔的物品",
     "ifsou.dialog.infusionMaterials": "注魔所需的材料",
     "ifsou.dialog.enchantInfusion": "此注魔效果是一个魔咒",
+    "ifsou.dialog.Conflict": "与%s附魔冲突",
     "ifsou.dialog.unconsume": "不消耗",
     "ifsou.dialog.AnyBoot": "任意靴子",
     "ifsou.dialog.AnyPickaxe": "任意镐",
+    "ifsou.dialog.AnyAxe": "任意斧",
+    "ifsou.dialog.AnyShovel": "任意锹",
     "ifsou.dialog.AnyArmor": "任意盔甲",
     "ifsou.dialog.AnyItem": "任意物品",
     
@@ -50,7 +53,6 @@
     
     "ifsou.enhance.DepthDigger": "深度矿工",
     "ifsou.dialog.DepthDigger.msg1": "海拔越低%s越快",
-    "ifsou.dialog.DepthDigger.msg2": "与%s,%s附魔冲突",
     "ifsou.actionbar.DepthDigger": "挖掘速度增量: %s",
 
     "ifsou.enhance.TunnelBoring": "盾构",
@@ -78,6 +80,9 @@
     "ifsou.dialog.Multitool.msg1": "挖掘所有方块的速度都非常快",
     "ifsou.dialog.Multitool.msg2": "会汲取使用者的生命恢复耐久度",
     "ifsou.enhance.HealthMending": "生命修补",
+    
+    "ifsou.enhance.RushingStream": "奔流",
+    "ifsou.dialog.RushingStream.msg1": "砍树时首先从距离目标方块最远的方块开始破坏",
 
     "ifsou.dialog.IfsA.help.title": "注魔指南",
     "ifsou.dialog.IfsA.help.msg1": "在祭坛中间的%s放置要被注魔的物品",
