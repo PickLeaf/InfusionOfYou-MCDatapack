@@ -1,0 +1,1 @@
+$execute as $(UUID) run function ifsou:enhance/rushing_stream/check_player
