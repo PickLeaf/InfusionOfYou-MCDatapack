@@ -1,4 +1,12 @@
 tag @s add IfsOU.RushingStream
+# store player UUID
+data modify entity @s data."ifsou:player".UUID \
+    set from storage nutlet:var uuid.hex
+# enchantment will check
+data modify entity @s data."ifsou:player".enchantments \
+    set value [{\
+        enchantments: "ifsou:rushing_stream",\
+        levels: {min: 1}}]
 # kill_timer
 tag @s add IfsOU.killTarget
 data modify storage nutlet:var tick set value \
@@ -6,10 +14,7 @@ data modify storage nutlet:var tick set value \
     callback: "ifsou:handler/kill_timer/new",\
     timer_tick: 600}
 function nutlet:-m/tick
-# 
-data modify entity @s data."ifsou:running".owner.UUID \
-    set from storage nutlet:var uuid.hex
-# 生成原木列表
+# 生成原木列表 generate list of logs
 data modify storage ifsou:var running \
     set value {logs:[],log:{}}
 

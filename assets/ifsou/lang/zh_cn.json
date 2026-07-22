@@ -83,6 +83,9 @@
     
     "ifsou.enhance.RushingStream": "奔流",
     "ifsou.dialog.RushingStream.msg1": "砍树时首先从距离目标方块最远的方块开始破坏",
+    
+    "ifsou.enhance.Eradicate": "除根",
+    "ifsou.dialog.Eradicate.msg1": "连锁破坏上下的重力方块",
 
     "ifsou.dialog.IfsA.help.title": "注魔指南",
     "ifsou.dialog.IfsA.help.msg1": "在祭坛中间的%s放置要被注魔的物品",

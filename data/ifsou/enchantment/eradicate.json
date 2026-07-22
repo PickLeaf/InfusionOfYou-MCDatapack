@@ -1,15 +1,15 @@
 {
     "anvil_cost": 0,
     "description": {
-        "translate": "ifsou.enhance.RushingStream",
-        "color": "#1e94f4"
+        "translate": "ifsou.enhance.Eradicate",
+        "color": "#79553a"
     },
     "effects": {
         "minecraft:hit_block": [
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "ifsou:enhance/rushing_stream"
+                    "function": "ifsou:enhance/eradicate"
                 }
             }
         ]
@@ -26,7 +26,7 @@
     "slots": [
         "mainhand"
     ],
-    "supported_items": "#minecraft:axes",
+    "supported_items": "#minecraft:shovels",
     "primary_items": [],
     "weight": 1
 }

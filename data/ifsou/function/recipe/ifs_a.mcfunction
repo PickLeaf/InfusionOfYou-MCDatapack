@@ -130,3 +130,16 @@ data modify storage ifsou:recipe \
         translate: "ifsou.enhance.RushingStream",\
         "color": "#1e94f4"},\
     dialog: "ifsou:recipe/ifs_a/rushing_stream"}
+# 除根
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:copper_torch":1,"minecraft:diamond":1,"minecraft:redstone_torch":1,"minecraft:shears":1,"minecraft:soul_torch":1,"minecraft:torch":1}' set value \
+    {color: 7951674,\
+    preMatch: "ifsou:recipe/ifs_a/pre_match/eradicate",\
+    absorbing: "ifsou:recipe/ifs_a/absorbing/eradicate",\
+    output: "ifsou:recipe/ifs_a/output/eradicate"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.enhance.Eradicate",\
+        "color": "#79553a"},\
+    dialog: "ifsou:recipe/ifs_a/eradicate"}

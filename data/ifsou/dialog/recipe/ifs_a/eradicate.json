@@ -1,7 +1,7 @@
 {
     "type": "minecraft:notice",
     "title": {
-        "translate": "ifsou.enhance.RushingStream"
+        "translate": "ifsou.enhance.Eradicate"
     },
     "body": [
         {
@@ -13,36 +13,17 @@
         {
             "type": "minecraft:plain_message",
             "contents": {
-                "translate": "ifsou.dialog.RushingStream.msg1"
-            }
-        },
-        {
-            "type": "minecraft:plain_message",
-            "contents": {
-                "translate": "ifsou.dialog.Conflict",
-                "with": [
-                    [
-                        {
-                            "translate": "enchantment.minecraft.silk_touch"
-                        },
-                        {
-                            "text": ", "
-                        },
-                        {
-                            "translate": "enchantment.minecraft.fortune"
-                        }
-                    ]
-                ]
+                "translate": "ifsou.dialog.Eradicate.msg1"
             }
         },
         {
             "type": "minecraft:item",
             "item": {
-                "id": "minecraft:iron_axe"
+                "id": "minecraft:iron_shovel"
             },
             "description": {
                 "contents": {
-                    "translate": "ifsou.dialog.AnyAxe"
+                    "translate": "ifsou.dialog.AnyShovel"
                 },
                 "width": 100
             }
@@ -56,11 +37,12 @@
                         "translate": "ifsou.dialog.infusionMaterials"
                     },
                     "minecraft:bundle_contents": [
+                        "minecraft:copper_torch",
                         "minecraft:diamond",
-                        "minecraft:firework_rocket",
-                        "minecraft:nether_wart",
-                        "minecraft:sticky_piston",
-                        "minecraft:water_bucket"
+                        "minecraft:redstone_torch",
+                        "minecraft:shears",
+                        "minecraft:soul_torch",
+                        "minecraft:torch"
                     ]
                 }
             },
@@ -73,6 +55,14 @@
         },
         {
             "type": "minecraft:item",
+            "item": "minecraft:copper_torch",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
             "item": "minecraft:diamond",
             "description": {
                 "contents": "1",
@@ -81,7 +71,7 @@
         },
         {
             "type": "minecraft:item",
-            "item": "minecraft:firework_rocket",
+            "item": "minecraft:redstone_torch",
             "description": {
                 "contents": "1",
                 "width": 20
@@ -89,7 +79,7 @@
         },
         {
             "type": "minecraft:item",
-            "item": "minecraft:nether_wart",
+            "item": "minecraft:shears",
             "description": {
                 "contents": "1",
                 "width": 20
@@ -97,7 +87,7 @@
         },
         {
             "type": "minecraft:item",
-            "item": "minecraft:sticky_piston",
+            "item": "minecraft:soul_torch",
             "description": {
                 "contents": "1",
                 "width": 20
@@ -105,7 +95,7 @@
         },
         {
             "type": "minecraft:item",
-            "item": "minecraft:water_bucket",
+            "item": "minecraft:torch",
             "description": {
                 "contents": "1",
                 "width": 20

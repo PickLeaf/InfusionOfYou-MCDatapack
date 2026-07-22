@@ -83,11 +83,14 @@
     
     "ifsou.enhance.RushingStream": "Rushing Stream",
     "ifsou.dialog.RushingStream.msg1": "When chopping a tree, start breaking the block farthest from the target block first",
+    
+    "ifsou.enhance.Eradicate": "Eradicate",
+    "ifsou.dialog.Eradicate.msg1": "Chain destroy the gravity blocks above and below",
 
     "ifsou.dialog.IfsA.title": "Infusion Guide",
     "ifsou.dialog.IfsA.msg1": "Place the item to do Infusion in the %s at the center of the altar",
     "ifsou.dialog.IfsA.msg2": "Place the materials needed for the Infusion in the %s within the range",
     "ifsou.dialog.IfsA.msg3": "extinguish and relight the %s to start the Infusion ritual",
-    
+
     "ifsou.dialog.IfsA.recipe.title": "Infusion Recipes"
 }

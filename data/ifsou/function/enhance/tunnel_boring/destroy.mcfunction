@@ -1,3 +1,3 @@
 function ifsou:util/kill with \
-    entity @s data."ifsou:tunnel_boring".display
+    entity @s data."ifsou:display"
 kill @s
