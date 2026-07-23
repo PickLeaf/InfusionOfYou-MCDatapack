@@ -6,6 +6,15 @@
     "ifsou.nutlet_low": "(Wrong Version of Nutlet Datapack)",
     "ifsou.load_resourcepack": "",
     "ifsou.machine.IfsA.name": "Infusion Altar",
+    
+    "ifsou.info.wrong_block": "You must hit a %s to setup %s",
+    "ifsou.lore.useRemainder": "Return after use: ",
+    "ifsou.lore.whenLoadUse": "Right-click while loading: ",
+
+    "ifsou.item.Wundle": "Wundle",
+    
+    "ifsou.item.WundleCore.Snowball": "Wundle Core: Snowball",
+    "ifsou.item.WundleCore.Snowball.use": "Make a snowball",
 
     "ifsou.advancement.nutlet/spell.description": "Sub-spells that can be written on the Page 2: help, recipe",
     "ifsou.advancement.nutlet/help.description": "Do we really need this?",
@@ -29,8 +38,6 @@
 
     "ifsou.advancement.GlassBreaker.title": "Did %s leave you behind?",
     "ifsou.advancement.Multitool.title": "What an ugly thing",
-    
-    "ifsou.info.wrong_block": "You must hit a %s to setup %s",
     
     "ifsou.dialog.infusionItem": "Item to do Infusion",
     "ifsou.dialog.infusionMaterials": "Materials Infusion need",

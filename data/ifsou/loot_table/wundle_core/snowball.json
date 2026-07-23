@@ -1,0 +1,54 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_star",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "id": "ifsou:snowball_wundle_core",
+                                "ifsou:wundle_core": {
+                                    "use_start": "ifsou:wundle_core/snowball/use_start"
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "append",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "color": "gray",
+                                    "translate": "ifsou.lore.whenLoadUse"
+                                },
+                                {
+                                    "italic": false,
+                                    "color": "blue",
+                                    "text": "　",
+                                    "extra": [
+                                        {
+                                            "translate": "ifsou.item.WundleCore.Snowball.use"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "ifsou.item.WundleCore.Snowball"
+                                },
+                                "minecraft:item_model": "ifsou:wundle_core/snowball"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

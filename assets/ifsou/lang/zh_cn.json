@@ -7,6 +7,15 @@
     "ifsou.load_resourcepack": "",
     "ifsou.machine.IfsA.name": "注魔祭坛",
 
+    "ifsou.info.wrong_block": "你必须击打%s来设置%s",
+    "ifsou.lore.useRemainder": "使用后返还：",
+    "ifsou.lore.whenLoadUse": "装载时右键：",
+
+    "ifsou.item.Wundle": "法袋",
+    
+    "ifsou.item.WundleCore.Snowball": "法袋核心：雪球",
+    "ifsou.item.WundleCore.Snowball.use": "生成雪球",
+    
     "ifsou.advancement.nutlet/spell.description": "可以写在第2页上的子咒法: help, recipe",
     "ifsou.advancement.nutlet/help.description": "真的需要这个吗？",
     "ifsou.advancement.nutlet/recipe.description": "不需要研究",
@@ -29,8 +38,6 @@
 
     "ifsou.advancement.GlassBreaker.title": "你被%s落下了吗？",
     "ifsou.advancement.Multitool.title": "何等丑陋的东西",
-
-    "ifsou.info.wrong_block": "你必须击打%s来设置%s",
     
     "ifsou.dialog.infusionItem": "被注魔的物品",
     "ifsou.dialog.infusionMaterials": "注魔所需的材料",

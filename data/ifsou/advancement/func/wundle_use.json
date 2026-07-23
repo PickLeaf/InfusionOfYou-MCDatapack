@@ -1,0 +1,25 @@
+{
+    "parent": "ifsou:root",
+    "display": {
+        "description": "",
+        "title": "",
+        "icon": "minecraft:structure_void",
+        "announce_to_chat": false,
+        "show_toast": false,
+        "hidden": true
+    },
+    "criteria": {
+        "use": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_data": {
+                            "id": "ifsou:wundle"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
