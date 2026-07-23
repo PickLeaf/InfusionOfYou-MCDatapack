@@ -12,9 +12,19 @@
     "ifsou.lore.whenLoadUse": "装载时右键：",
 
     "ifsou.item.Wundle": "法袋",
+    "ifsou.dialog.Wundle.msg1": "需要放入法袋核心使用",
+    "ifsou.dialog.Wundle.msg2": "仅最后放入的法袋核心会生效",
+    "ifsou.dialog.Wundle.msg3": "按%s键循环选择法袋核心",
     
     "ifsou.item.WundleCore.Snowball": "法袋核心：雪球",
     "ifsou.item.WundleCore.Snowball.use": "生成雪球",
+
+    "ifsou.item.WundleCore.WindCharge": "法袋核心：风弹",
+    "ifsou.item.WundleCore.WindCharge.use": "消耗4点经验生成风弹",
+    
+    "ifsou.item.WundleCore.EnderPearl": "法袋核心：末影珍珠",
+    "ifsou.item.WundleCore.EnderPearl.use": "消耗10点经验生成末影珍珠",
+    
     
     "ifsou.advancement.nutlet/spell.description": "可以写在第2页上的子咒法: help, recipe",
     "ifsou.advancement.nutlet/help.description": "真的需要这个吗？",
@@ -50,6 +60,7 @@
     "ifsou.dialog.AnyShovel": "任意锹",
     "ifsou.dialog.AnyArmor": "任意盔甲",
     "ifsou.dialog.AnyItem": "任意物品",
+    "ifsou.dialog.AnyBundle": "任意收纳袋",
     
     "ifsou.infusion.Thunder": "雷雨",
     "ifsou.dialog.Thunder.msg1": "将天气设为雷雨",

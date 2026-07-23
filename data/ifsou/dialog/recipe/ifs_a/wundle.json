@@ -1,0 +1,101 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.item.Wundle"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.Wundle.msg1"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.Wundle.msg2"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.Wundle.msg3",
+                "with": [
+                    {
+                        "keybind": "key.swapOffhand"
+                    }
+                ]
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:structure_void",
+                "components": {
+                    "minecraft:item_model": "minecraft:bundle",
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.AnyBundle"
+                    }
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:gold_block",
+                        "minecraft:resin_clump",
+                        {
+                            "id": "minecraft:honeycomb",
+                            "count": 3
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:gold_block",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:resin_clump",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:honeycomb",
+                "count": 3
+            },
+            "description": {
+                "contents": "3",
+                "width": 20
+            }
+        }
+    ]
+}

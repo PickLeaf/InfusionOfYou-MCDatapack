@@ -21,17 +21,9 @@
             "contents": {
                 "translate": "ifsou.dialog.Conflict",
                 "with": [
-                    [
-                        {
-                            "translate": "enchantment.minecraft.silk_touch"
-                        },
-                        {
-                            "text": ", "
-                        },
-                        {
-                            "translate": "enchantment.minecraft.fortune"
-                        }
-                    ]
+                    {
+                        "translate": "enchantment.minecraft.fortune"
+                    }
                 ]
             }
         },

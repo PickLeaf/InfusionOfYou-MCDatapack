@@ -16,7 +16,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "ifsou:wundle/use"
+                    "function": "ifsou:wundle/tick"
                 }
             }
         ]
@@ -31,7 +31,7 @@
     },
     "max_level": 1,
     "slots": [
-        "mainhand"
+        "hand"
     ],
     "supported_items": "#minecraft:bundles",
     "primary_items": [],

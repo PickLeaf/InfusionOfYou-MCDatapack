@@ -1,3 +1,10 @@
+execute if items entity @s weapon.offhand \
+    *[minecraft:enchantments~[{\
+        enchantments:"ifsou:wundle",\
+        levels:{min:1}}]] \
+    run return run \
+        function ifsou:wundle/hand_swapped
+
 execute anchored eyes \
     positioned ^ ^ ^0 \
     if entity \

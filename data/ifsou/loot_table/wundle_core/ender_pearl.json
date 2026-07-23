@@ -1,0 +1,55 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:firework_star",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_custom_data",
+                            "tag": {
+                                "id": "ifsou:ender_pearl_wundle_core",
+                                "ifsou:wundle_core": {
+                                    "use_start": "ifsou:wd_cr/ender_pearl/use_start"
+                                }
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "mode": "append",
+                            "lore": [
+                                {
+                                    "italic": false,
+                                    "color": "gray",
+                                    "translate": "ifsou.lore.whenLoadUse"
+                                },
+                                {
+                                    "italic": false,
+                                    "color": "blue",
+                                    "text": "　",
+                                    "extra": [
+                                        {
+                                            "translate": "ifsou.item.WundleCore.EnderPearl.use"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:item_name": {
+                                    "translate": "ifsou.item.WundleCore.EnderPearl"
+                                },
+                                "minecraft:item_model": "ifsou:wundle_core/ender_pearl",
+                                "minecraft:max_stack_size": 15
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

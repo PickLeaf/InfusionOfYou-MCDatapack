@@ -4,6 +4,9 @@
         "ifsou:depth_digger",
         "ifsou:tunnel_boring",
         "ifsou:health_mending",
-        "ifsou:horse_foot"
+        "ifsou:horse_foot",
+        "ifsou:rushing_stream",
+        "ifsou:eradicate",
+        "ifsou:wundle"
     ]
 }

@@ -1,0 +1,76 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.item.WundleCore.Snowball"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.item.WundleCore.Snowball.use"
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:diamond",
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:carved_pumpkin",
+                        "minecraft:iron_shovel",
+                        {
+                            "id": "minecraft:snow_block",
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:carved_pumpkin",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:iron_shovel",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:snow_block",
+                "count": 2
+            },
+            "description": {
+                "contents": "2",
+                "width": 20
+            }
+        }
+    ]
+}

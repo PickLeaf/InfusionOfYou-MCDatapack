@@ -9,9 +9,9 @@ execute unless items block ~ ~ ~ container.0 \
 
 item modify block ~ ~ ~ container.0 ifsou:enhance/unbreakable
 
-playsound minecraft:block.beacon.activate block @a
-playsound minecraft:item.totem.use block @a
-playsound minecraft:entity.lingering_potion.throw block @a
-playsound minecraft:entity.axolotl.hurt block @a
+playsound minecraft:block.beacon.activate block @a[distance=0..32]
+playsound minecraft:item.totem.use block @a[distance=0..32]
+playsound minecraft:entity.lingering_potion.throw block @a[distance=0..32]
+playsound minecraft:entity.axolotl.hurt block @a[distance=0..32]
 
 function ifsou:ifs_a/work/drop

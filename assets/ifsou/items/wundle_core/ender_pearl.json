@@ -1,0 +1,28 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+            {
+                "when": "ground",
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:keybind_down",
+                    "keybind": "key.use",
+                    "on_true": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/air"
+                    },
+                    "on_false": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/ender_pearl"
+                    }
+                }
+            }
+        ],
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/ender_pearl"
+        }
+    }
+}

@@ -9,7 +9,7 @@ item modify block ~ ~ ~ container.0 {\
 
 weather thunder 1d
 
-playsound minecraft:item.trident.thunder block @a
+playsound minecraft:item.trident.thunder block @a[distance=0..32]
 advancement grant @a[distance=0..32] only ifsou:thunder
 
 function ifsou:ifs_a/work/drop

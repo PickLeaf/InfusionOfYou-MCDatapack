@@ -1,4 +1,4 @@
-item replace entity @s container.0 with minecraft:snowball\
+item replace entity @s container.0 with minecraft:wind_charge\
     [minecraft:lore=[{\
         italic: false,\
         color: "gray",\

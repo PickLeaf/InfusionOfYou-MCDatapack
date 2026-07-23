@@ -1,0 +1,85 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.item.WundleCore.WindCharge"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.item.WundleCore.WindCharge.use"
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:quartz",
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:breeze_rod",
+                        "minecraft:chorus_flower",
+                        "minecraft:milk_bucket",
+                        {
+                            "id": "minecraft:feather",
+                            "count": 3
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:breeze_rod",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:chorus_flower",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:milk_bucket",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:feather",
+                "count": 3
+            },
+            "description": {
+                "contents": "3",
+                "width": 20
+            }
+        }
+    ]
+}

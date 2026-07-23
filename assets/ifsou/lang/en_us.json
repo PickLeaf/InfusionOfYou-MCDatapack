@@ -12,10 +12,20 @@
     "ifsou.lore.whenLoadUse": "Right-click while loading: ",
 
     "ifsou.item.Wundle": "Wundle",
+    "ifsou.dialog.Wundle.msg1": "Needs to be put into the Wundle Core for use",
+    "ifsou.dialog.Wundle.msg2": "Only the Wundle Core added last will take effect",
+    "ifsou.dialog.Wundle.msg3": "Use the %s key to cycle through Wundle Core",
     
     "ifsou.item.WundleCore.Snowball": "Wundle Core: Snowball",
-    "ifsou.item.WundleCore.Snowball.use": "Make a snowball",
+    "ifsou.item.WundleCore.Snowball.use": "Make a Snowball",
 
+    "ifsou.item.WundleCore.WindCharge": "Wundle Core: Wind Charge",
+    "ifsou.item.WundleCore.WindCharge.use": "Consume 4 xp to make a Wind Charg",
+    
+    "ifsou.item.WundleCore.EnderPearl": "Wundle Core: Ender Pearl",
+    "ifsou.item.WundleCore.EnderPearl.use": "Consume 10 xp to make a Ender Pearl",
+
+    
     "ifsou.advancement.nutlet/spell.description": "Sub-spells that can be written on the Page 2: help, recipe",
     "ifsou.advancement.nutlet/help.description": "Do we really need this?",
     "ifsou.advancement.nutlet/recipe.description": "No Researching",
@@ -50,6 +60,7 @@
     "ifsou.dialog.AnyShovel": "Any Shovel",
     "ifsou.dialog.AnyArmor": "Any Armor",
     "ifsou.dialog.AnyItem": "Any Item",
+    "ifsou.dialog.AnyBundle": "Any Bundle",
 
     "ifsou.infusion.Thunder": "Rain & Tunder",
     "ifsou.dialog.Thunder.msg1": "Set the weather to rain & thunder",

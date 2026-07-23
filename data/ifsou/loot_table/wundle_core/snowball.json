@@ -12,7 +12,7 @@
                             "tag": {
                                 "id": "ifsou:snowball_wundle_core",
                                 "ifsou:wundle_core": {
-                                    "use_start": "ifsou:wundle_core/snowball/use_start"
+                                    "use_start": "ifsou:wd_cr/snowball/use_start"
                                 }
                             }
                         },
@@ -43,7 +43,8 @@
                                 "minecraft:item_name": {
                                     "translate": "ifsou.item.WundleCore.Snowball"
                                 },
-                                "minecraft:item_model": "ifsou:wundle_core/snowball"
+                                "minecraft:item_model": "ifsou:wundle_core/snowball",
+                                "minecraft:max_stack_size": 30
                             }
                         }
                     ]

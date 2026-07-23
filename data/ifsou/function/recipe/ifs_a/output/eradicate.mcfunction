@@ -10,7 +10,7 @@ execute unless items block ~ ~ ~ container.0 #minecraft:shovels \
 
 item modify block ~ ~ ~ container.0 ifsou:enhance/eradicate
 
-playsound minecraft:block.gravel.break block @a
-playsound minecraft:block.sand.place block @a
+playsound minecraft:block.gravel.break block @a[distance=0..32]
+playsound minecraft:block.sand.place block @a[distance=0..32]
 
 function ifsou:ifs_a/work/drop

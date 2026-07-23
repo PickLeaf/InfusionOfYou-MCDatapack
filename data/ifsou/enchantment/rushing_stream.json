@@ -27,6 +27,7 @@
         "mainhand"
     ],
     "supported_items": "#minecraft:axes",
+    "exclusive_set": "#ifsou:exclusive_set/rushing_stream",
     "primary_items": [],
     "weight": 1
 }

@@ -10,6 +10,6 @@ execute unless items block ~ ~ ~ container.0 #minecraft:foot_armor \
     
 item modify block ~ ~ ~ container.0 ifsou:enhance/horse_foot
 
-playsound minecraft:entity.horse.angry block @a
+playsound minecraft:entity.horse.angry block @a[distance=0..32]
 
 function ifsou:ifs_a/work/drop

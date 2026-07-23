@@ -143,3 +143,58 @@ data modify storage ifsou:recipe \
         translate: "ifsou.enhance.Eradicate",\
         "color": "#79553a"},\
     dialog: "ifsou:recipe/ifs_a/eradicate"}
+
+
+
+# 法袋
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:gold_block":1,"minecraft:honeycomb":3,"minecraft:resin_clump":1}' set value \
+    {color: 13864029,\
+    preMatch: "ifsou:recipe/ifs_a/pre_match/wundle",\
+    absorbing: "ifsou:recipe/ifs_a/absorbing/wundle",\
+    output: "ifsou:recipe/ifs_a/output/wundle"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.item.Wundle",\
+        "color": "#d38c5d"},\
+    dialog: "ifsou:recipe/ifs_a/wundle"}
+# 法袋核心：雪球
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:carved_pumpkin":1,"minecraft:iron_shovel":1,"minecraft:snow_block":2}' set value \
+    {color: 12177873,\
+    preMatch: "ifsou:recipe/ifs_a/wd_cr/pre_match/snowball",\
+    absorbing: "ifsou:recipe/ifs_a/wd_cr/absorbing/snowball",\
+    output: "ifsou:recipe/ifs_a/wd_cr/output/snowball"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.item.WundleCore.Snowball",\
+        "color": "#b9d1d1"},\
+    dialog: "ifsou:recipe/ifs_a/wd_cr/snowball"}
+# 法袋核心：风弹
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:breeze_rod":1,"minecraft:chorus_flower":1,"minecraft:feather":3,"minecraft:milk_bucket":1}' set value \
+    {color: 9675193,\
+    preMatch: "ifsou:recipe/ifs_a/wd_cr/pre_match/wind_charge",\
+    absorbing: "ifsou:recipe/ifs_a/wd_cr/absorbing/wind_charge",\
+    output: "ifsou:recipe/ifs_a/wd_cr/output/wind_charge"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.item.WundleCore.WindCharge",\
+        "color": "#93a1b9"},\
+    dialog: "ifsou:recipe/ifs_a/wd_cr/wind_charge"}
+# 法袋核心：末影珍珠
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:chorus_fruit":2,"minecraft:end_stone":2,"minecraft:ender_pearl":1}' set value \
+    {color: 2310460,\
+    preMatch: "ifsou:recipe/ifs_a/wd_cr/pre_match/ender_pearl",\
+    absorbing: "ifsou:recipe/ifs_a/wd_cr/absorbing/ender_pearl",\
+    output: "ifsou:recipe/ifs_a/wd_cr/output/ender_pearl"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.item.WundleCore.EnderPearl",\
+        "color": "#23413c"},\
+    dialog: "ifsou:recipe/ifs_a/wd_cr/ender_pearl"}
