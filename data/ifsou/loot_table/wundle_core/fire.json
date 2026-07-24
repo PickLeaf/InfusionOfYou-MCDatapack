@@ -10,9 +10,11 @@
                         {
                             "function": "minecraft:set_custom_data",
                             "tag": {
-                                "id": "ifsou:ender_pearl_wundle_core",
+                                "id": "ifsou:fire_wundle_core",
                                 "ifsou:wundle_core": {
-                                    "use_start": "ifsou:wd_cr/ender_pearl/use_start"
+                                    "use_start": "ifsou:wd_cr/fire/use_start",
+                                    "pre_attacker": "ifsou:wd_cr/fire/pre_attacker",
+                                    "post_victim": "ifsou:wd_cr/fire/post_victim"
                                 }
                             }
                         },
@@ -31,7 +33,22 @@
                                     "text": "　",
                                     "extra": [
                                         {
-                                            "translate": "ifsou.item.WundleCore.EnderPearl.use"
+                                            "translate": "ifsou.item.WundleCore.Fire.use"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "italic": false,
+                                    "color": "gray",
+                                    "translate": "ifsou.lore.whenLoadHitEntity"
+                                },
+                                {
+                                    "italic": false,
+                                    "color": "blue",
+                                    "text": "　",
+                                    "extra": [
+                                        {
+                                            "translate": "ifsou.item.WundleCore.Fire.HitEntity"
                                         }
                                     ]
                                 }
@@ -41,10 +58,10 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "ifsou.item.WundleCore.EnderPearl"
+                                    "translate": "ifsou.item.WundleCore.Fire"
                                 },
-                                "minecraft:item_model": "ifsou:wundle_core/ender_pearl",
-                                "minecraft:max_stack_size": 10
+                                "minecraft:item_model": "ifsou:wundle_core/fire",
+                                "minecraft:max_stack_size": 15
                             }
                         }
                     ]

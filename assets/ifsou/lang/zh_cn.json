@@ -10,6 +10,7 @@
     "ifsou.info.wrong_block": "你必须击打%s来设置%s",
     "ifsou.lore.useRemainder": "使用后返还：",
     "ifsou.lore.whenLoadUse": "装载时右键：",
+    "ifsou.lore.whenLoadHitEntity": "装载时击打实体：",
 
     "ifsou.item.Wundle": "法袋",
     "ifsou.dialog.Wundle.msg1": "需要放入法袋核心使用",
@@ -20,10 +21,14 @@
     "ifsou.item.WundleCore.Snowball.use": "生成雪球",
 
     "ifsou.item.WundleCore.WindCharge": "法袋核心：风弹",
-    "ifsou.item.WundleCore.WindCharge.use": "消耗4点经验生成风弹",
+    "ifsou.item.WundleCore.WindCharge.use": "消耗4点经验发射风弹",
     
     "ifsou.item.WundleCore.EnderPearl": "法袋核心：末影珍珠",
     "ifsou.item.WundleCore.EnderPearl.use": "消耗10点经验生成末影珍珠",
+    
+    "ifsou.item.WundleCore.Fire": "法袋核心：火焰",
+    "ifsou.item.WundleCore.Fire.use": "消耗5点经验发射火焰弹",
+    "ifsou.item.WundleCore.Fire.HitEntity": "消耗5点经验点燃实体5秒",
     
     
     "ifsou.advancement.nutlet/spell.description": "可以写在第2页上的子咒法: help, recipe",

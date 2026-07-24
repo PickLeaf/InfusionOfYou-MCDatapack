@@ -10,6 +10,7 @@
     "ifsou.info.wrong_block": "You must hit a %s to setup %s",
     "ifsou.lore.useRemainder": "Return after use: ",
     "ifsou.lore.whenLoadUse": "Right-click while loading: ",
+    "ifsou.lore.whenLoadHitEntity": "Hit entity while loading: ",
 
     "ifsou.item.Wundle": "Wundle",
     "ifsou.dialog.Wundle.msg1": "Needs to be put into the Wundle Core for use",
@@ -20,10 +21,14 @@
     "ifsou.item.WundleCore.Snowball.use": "Make a Snowball",
 
     "ifsou.item.WundleCore.WindCharge": "Wundle Core: Wind Charge",
-    "ifsou.item.WundleCore.WindCharge.use": "Consume 4 xp to make a Wind Charg",
+    "ifsou.item.WundleCore.WindCharge.use": "Consume 4 xp to shot a Wind Charge",
     
     "ifsou.item.WundleCore.EnderPearl": "Wundle Core: Ender Pearl",
     "ifsou.item.WundleCore.EnderPearl.use": "Consume 10 xp to make a Ender Pearl",
+    
+    "ifsou.item.WundleCore.Fire": "Wundle Core: Fire",
+    "ifsou.item.WundleCore.Fire.use": "Consume 5 xp to shot a Fire Charge",
+    "ifsou.item.WundleCore.Fire.HitEntity": "Consume 5 xp to ignite entity for 5 seconds",
 
     
     "ifsou.advancement.nutlet/spell.description": "Sub-spells that can be written on the Page 2: help, recipe",

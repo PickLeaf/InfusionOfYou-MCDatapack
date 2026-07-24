@@ -19,6 +19,40 @@
                     "function": "ifsou:wundle/tick"
                 }
             }
+        ],
+        "minecraft:post_attack": [
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ifsou:wundle/attack/pre_attacker"
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ifsou:wundle/attack/pre_victim"
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "attacker",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ifsou:wundle/attack/post_attacker"
+                }
+            },
+            {
+                "enchanted": "attacker",
+                "affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ifsou:wundle/attack/post_victim"
+                }
+            }
         ]
     },
     "max_cost": {
