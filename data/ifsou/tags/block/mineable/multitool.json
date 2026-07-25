@@ -8,8 +8,7 @@
         "#minecraft:wool",
         "#minecraft:leaves",
         "#ifsou:glass",
-        "minecraft:glow_lichen",
-        "minecraft:vine",
+        "#ifsou:skull",
         "minecraft:cobweb"
     ]
 }

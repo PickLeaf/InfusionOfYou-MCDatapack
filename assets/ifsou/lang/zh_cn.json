@@ -19,7 +19,7 @@
     "ifsou.dialog.Wundle.msg3": "按%s键循环选择法袋核心",
     
     "ifsou.item.WundleCore.Snowball": "法袋核心：雪球",
-    "ifsou.advancement.WundleCore.Snowball.use": "生成雪球",
+    "ifsou.item.WundleCore.Snowball.use": "生成雪球",
     "ifsou.advancement.WundleCore.Snowball.title": "有何用？",
 
     "ifsou.item.WundleCore.WindCharge": "法袋核心：风弹",
