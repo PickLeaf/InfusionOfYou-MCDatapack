@@ -3,5 +3,6 @@ data modify entity \
     tag=IfsOU.ReturnCore,limit=1] \
     item.components."minecraft:bundle_contents" \
     prepend from entity @s Item
-
+data modify storage ifsou:var wundle.longPress \
+    set value 1b
 kill @s

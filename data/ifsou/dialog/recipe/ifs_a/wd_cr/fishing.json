@@ -1,0 +1,79 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.item.WundleCore.Fishing"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.item.WundleCore.Fishing.LongPress"
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:pufferfish",
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:note_block",
+                        "minecraft:iron_trapdoor",
+                        "minecraft:comparator",
+                        "minecraft:calibrated_sculk_sensor"
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:note_block",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:iron_trapdoor",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:comparator",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:calibrated_sculk_sensor",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        }
+    ]
+}

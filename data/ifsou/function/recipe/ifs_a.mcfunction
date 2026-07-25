@@ -198,3 +198,31 @@ data modify storage ifsou:recipe \
         translate: "ifsou.item.WundleCore.EnderPearl",\
         "color": "#23413c"},\
     dialog: "ifsou:recipe/ifs_a/wd_cr/ender_pearl"}
+# 法袋核心：火焰
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:blaze_rod":1,"minecraft:ghast_tear":1,"minecraft:gunpowder":1}' set value \
+    {color: 7030048,\
+    preMatch: "ifsou:recipe/ifs_a/wd_cr/pre_match/fire",\
+    absorbing: "ifsou:recipe/ifs_a/wd_cr/absorbing/fire",\
+    output: "ifsou:recipe/ifs_a/wd_cr/output/fire"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.item.WundleCore.Fire",\
+        "color": "#6b4520"},\
+    dialog: "ifsou:recipe/ifs_a/wd_cr/fire"}
+
+# 法袋核心：垂钓
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:calibrated_sculk_sensor":1,"minecraft:comparator":1,"minecraft:iron_trapdoor":1,"minecraft:note_block":1}' set value \
+    {color: 11457848,\
+    preMatch: "ifsou:recipe/ifs_a/wd_cr/pre_match/fishing",\
+    absorbing: "ifsou:recipe/ifs_a/wd_cr/absorbing/fishing",\
+    output: "ifsou:recipe/ifs_a/wd_cr/output/fishing"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.item.WundleCore.Fishing",\
+        "color": "#aed538"},\
+    dialog: "ifsou:recipe/ifs_a/wd_cr/fishing"}
+

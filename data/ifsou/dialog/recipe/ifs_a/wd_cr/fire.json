@@ -1,0 +1,102 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.item.WundleCore.Fire"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.item.WundleCore.Fire.use"
+            }
+        },
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.item.WundleCore.Fire.HitEntity"
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:firework_star",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.item.WundleCore.Snowball",
+                        "color": "#b9d1d1"
+                    },
+                    "minecraft:item_model": "ifsou:wundle_core/snowball",
+                    "minecraft:lore": [
+                        {
+                            "italic": false,
+                            "color": "gray",
+                            "translate": "ifsou.lore.whenLoadUse"
+                        },
+                        {
+                            "italic": false,
+                            "color": "blue",
+                            "text": "　",
+                            "extra": [
+                                {
+                                    "translate": "ifsou.item.WundleCore.Snowball.use"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:blaze_rod",
+                        "minecraft:ghast_tear",
+                        "minecraft:gunpowder"
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:blaze_rod",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:ghast_tear",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:gunpowder",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        }
+    ]
+}

@@ -10,9 +10,9 @@
                         {
                             "function": "minecraft:set_custom_data",
                             "tag": {
-                                "id": "ifsou:snowball_wundle_core",
+                                "id": "ifsou:fishing_wundle_core",
                                 "ifsou:wundle_core": {
-                                    "use_start": "ifsou:wd_cr/snowball/use_start"
+                                    "using": "ifsou:wd_cr/fishing/using"
                                 }
                             }
                         },
@@ -23,7 +23,7 @@
                                 {
                                     "italic": false,
                                     "color": "gray",
-                                    "translate": "ifsou.lore.whenLoadUse"
+                                    "translate": "ifsou.lore.whenLoadLongPress"
                                 },
                                 {
                                     "italic": false,
@@ -31,7 +31,7 @@
                                     "text": "　",
                                     "extra": [
                                         {
-                                            "translate": "ifsou.item.WundleCore.Snowball.use"
+                                            "translate": "ifsou.item.WundleCore.Fishing.LongPress"
                                         }
                                     ]
                                 }
@@ -41,11 +41,11 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "ifsou.item.WundleCore.Snowball",
-                                    "color": "#b9d1d1"
+                                    "translate": "ifsou.item.WundleCore.Fishing",
+                                    "color": "#aed538"
                                 },
-                                "minecraft:item_model": "ifsou:wundle_core/snowball",
-                                "minecraft:max_stack_size": 30
+                                "minecraft:item_model": "ifsou:wundle_core/fishing",
+                                "minecraft:max_stack_size": 5
                             }
                         }
                     ]

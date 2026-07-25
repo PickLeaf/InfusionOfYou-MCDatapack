@@ -1,0 +1,43 @@
+{
+    "parent": "ifsou:wundle_core/fire",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.WundleCore.WindCharge.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.*2.description",
+            "with": [
+                {
+                    "translate": "ifsou.item.WundleCore.WindCharge"
+                }
+            ]
+        },
+        "icon": {
+            "id": "minecraft:firework_star",
+            "components": {
+                "minecraft:item_model": "ifsou:wundle_core/wind_charge"
+            }
+        }
+    },
+    "criteria": {
+        "wind_charge": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "id": "ifsou:wind_charge_wundle_core"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "wind_charge"
+        ]
+    ]
+}

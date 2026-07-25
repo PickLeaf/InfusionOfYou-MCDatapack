@@ -41,7 +41,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "ifsou.item.WundleCore.EnderPearl"
+                                    "translate": "ifsou.item.WundleCore.EnderPearl",
+                                    "color": "#23413c"
                                 },
                                 "minecraft:item_model": "ifsou:wundle_core/ender_pearl",
                                 "minecraft:max_stack_size": 10

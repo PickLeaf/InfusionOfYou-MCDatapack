@@ -1,0 +1,45 @@
+{
+    "parent": "ifsou:enhance/rushing_stream",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.Eradicate.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.*.description",
+            "with": [
+                {
+                    "translate": "ifsou.enhance.Eradicate"
+                }
+            ]
+        },
+        "icon": {
+            "id": "minecraft:hanging_roots"
+        }
+    },
+    "criteria": {
+        "eradicate": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "ifsou:eradicate",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "eradicate"
+        ]
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "parent": "ifsou:enhance/horse_foot",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.TunnelBoring.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.*.description",
+            "with": [
+                {
+                    "translate": "ifsou.enhance.TunnelBoring"
+                }
+            ]
+        },
+        "icon": {
+            "id": "minecraft:piston"
+        }
+    },
+    "criteria": {
+        "tunnel_boring": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:enchantments": [
+                                {
+                                    "enchantments": "ifsou:tunnel_boring",
+                                    "levels": {
+                                        "min": 1
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "tunnel_boring"
+        ]
+    ]
+}

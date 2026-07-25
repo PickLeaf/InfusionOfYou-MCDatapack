@@ -1,0 +1,43 @@
+{
+    "parent": "ifsou:root",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.WundleCore.Snowball.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.*2.description",
+            "with": [
+                {
+                    "translate": "ifsou.item.WundleCore.Snowball"
+                }
+            ]
+        },
+        "icon": {
+            "id": "minecraft:firework_star",
+            "components": {
+                "minecraft:item_model": "ifsou:wundle_core/snowball"
+            }
+        }
+    },
+    "criteria": {
+        "snowball": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "id": "ifsou:snowball_wundle_core"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "snowball"
+        ]
+    ]
+}

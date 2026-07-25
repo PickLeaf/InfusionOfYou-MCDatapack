@@ -10,6 +10,7 @@
     "ifsou.info.wrong_block": "你必须击打%s来设置%s",
     "ifsou.lore.useRemainder": "使用后返还：",
     "ifsou.lore.whenLoadUse": "装载时右键：",
+    "ifsou.lore.whenLoadLongPress": "装载时长按右键：",
     "ifsou.lore.whenLoadHitEntity": "装载时击打实体：",
 
     "ifsou.item.Wundle": "法袋",
@@ -18,17 +19,25 @@
     "ifsou.dialog.Wundle.msg3": "按%s键循环选择法袋核心",
     
     "ifsou.item.WundleCore.Snowball": "法袋核心：雪球",
-    "ifsou.item.WundleCore.Snowball.use": "生成雪球",
+    "ifsou.advancement.WundleCore.Snowball.use": "生成雪球",
+    "ifsou.advancement.WundleCore.Snowball.title": "有何用？",
 
     "ifsou.item.WundleCore.WindCharge": "法袋核心：风弹",
     "ifsou.item.WundleCore.WindCharge.use": "消耗4点经验发射风弹",
+    "ifsou.advancement.WundleCore.WindCharge.title": "台风来了",
     
     "ifsou.item.WundleCore.EnderPearl": "法袋核心：末影珍珠",
     "ifsou.item.WundleCore.EnderPearl.use": "消耗10点经验生成末影珍珠",
+    "ifsou.advancement.WundleCore.EnderPearl.title": "近程折跃",
     
     "ifsou.item.WundleCore.Fire": "法袋核心：火焰",
     "ifsou.item.WundleCore.Fire.use": "消耗5点经验发射火焰弹",
     "ifsou.item.WundleCore.Fire.HitEntity": "消耗5点经验点燃实体5秒",
+    "ifsou.advancement.WundleCore.Fire.title": "119",
+    
+    "ifsou.item.WundleCore.Fishing": "法袋核心：垂钓",
+    "ifsou.item.WundleCore.Fishing.LongPress": "使用副手的钓鱼竿自动钓鱼",
+    "ifsou.advancement.WundleCore.Fishing.title": "Mojang做不到",
     
     
     "ifsou.advancement.nutlet/spell.description": "可以写在第2页上的子咒法: help, recipe",
@@ -41,6 +50,8 @@
     "ifsou.advancement.HorseFoot.title": "露出马脚了",
     "ifsou.advancement.DepthDigger.title": "越深越好",
     "ifsou.advancement.TunnelBoring.title": "蚯蚓这一块",
+    "ifsou.advancement.RushingStream.title": "奔流斧",
+    "ifsou.advancement.Eradicate.title": "源质钢铲",
 
     "ifsou.advancement.PhantomModel.title": "奸商",
     "ifsou.advancement.InvisibleArmor.title": "保持低调",
@@ -49,7 +60,6 @@
     "ifsou.advancement.Unbreakable.description": "获得无法破坏的物品",
     
     "ifsou.advancement.Thunder.title": "我是雷霆侠",
-    "ifsou.advancement.Thunder.description": "注魔，使雷雨降临",
 
     "ifsou.advancement.GlassBreaker.title": "你被%s落下了吗？",
     "ifsou.advancement.Multitool.title": "何等丑陋的东西",

@@ -1,23 +1,23 @@
 {
-    "parent": "ifsou:horse_foot",
+    "parent": "ifsou:enhance/depth_digger",
     "display": {
         "title": {
-            "translate": "ifsou.advancement.TunnelBoring.title"
+            "translate": "ifsou.advancement.RushingStream.title"
         },
         "description": {
             "translate": "ifsou.advancement.*.description",
             "with": [
                 {
-                    "translate": "ifsou.enhance.TunnelBoring"
+                    "translate": "ifsou.enhance.RushingStream"
                 }
             ]
         },
         "icon": {
-            "id": "minecraft:piston"
+            "id": "minecraft:water_bucket"
         }
     },
     "criteria": {
-        "tunnel_boring": {
+        "rushing_stream": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
@@ -25,7 +25,7 @@
                         "predicates": {
                             "minecraft:enchantments": [
                                 {
-                                    "enchantments": "ifsou:tunnel_boring",
+                                    "enchantments": "ifsou:rushing_stream",
                                     "levels": {
                                         "min": 1
                                     }
@@ -39,7 +39,7 @@
     },
     "requirements": [
         [
-            "tunnel_boring"
+            "rushing_stream"
         ]
     ]
 }

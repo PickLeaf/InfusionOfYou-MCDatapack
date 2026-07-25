@@ -41,7 +41,8 @@
                             "function": "minecraft:set_components",
                             "components": {
                                 "minecraft:item_name": {
-                                    "translate": "ifsou.item.WundleCore.WindCharge"
+                                    "translate": "ifsou.item.WundleCore.WindCharge",
+                                    "color": "#93a1b9"
                                 },
                                 "minecraft:item_model": "ifsou:wundle_core/wind_charge",
                                 "minecraft:max_stack_size": 15

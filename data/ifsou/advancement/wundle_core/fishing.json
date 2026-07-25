@@ -1,0 +1,43 @@
+{
+    "parent": "ifsou:wundle_core/ender_pearl",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.WundleCore.Fishing.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.*2.description",
+            "with": [
+                {
+                    "translate": "ifsou.item.WundleCore.Fishing"
+                }
+            ]
+        },
+        "icon": {
+            "id": "minecraft:firework_star",
+            "components": {
+                "minecraft:item_model": "ifsou:wundle_core/fishing"
+            }
+        }
+    },
+    "criteria": {
+        "fishing": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "predicates": {
+                            "minecraft:custom_data": {
+                                "id": "ifsou:fishing_wundle_core"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "fishing"
+        ]
+    ]
+}

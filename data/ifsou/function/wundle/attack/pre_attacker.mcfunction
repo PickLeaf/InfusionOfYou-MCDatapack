@@ -1,3 +1,5 @@
+function ifsou:wundle/toast_core
+
 data modify storage ifsou:var wundle.handler \
     set from entity @s SelectedItem.components.\
     minecraft:bundle_contents[0].components.\

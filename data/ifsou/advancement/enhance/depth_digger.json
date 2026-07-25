@@ -1,5 +1,5 @@
 {
-    "parent": "ifsou:tunnel_boring",
+    "parent": "ifsou:enhance/tunnel_boring",
     "display": {
         "title": {
             "translate": "ifsou.advancement.DepthDigger.title"
