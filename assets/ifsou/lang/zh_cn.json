@@ -11,9 +11,11 @@
     "ifsou.lore.useRemainder": "使用后返还：",
     "ifsou.lore.whenLoadUse": "装载时右键：",
     "ifsou.lore.whenLoadLongPress": "装载时长按右键：",
+    "ifsou.lore.whenLoadHitBlock": "装载时击打方块：",
     "ifsou.lore.whenLoadHitEntity": "装载时击打实体：",
 
     "ifsou.item.Wundle": "法袋",
+    "ifsou.advancement.Wundle.title": "不是棍子",
     "ifsou.dialog.Wundle.msg1": "需要放入法袋核心使用",
     "ifsou.dialog.Wundle.msg2": "仅最后放入的法袋核心会生效",
     "ifsou.dialog.Wundle.msg3": "按%s键循环选择法袋核心",
@@ -38,6 +40,10 @@
     "ifsou.item.WundleCore.Fishing": "法袋核心：垂钓",
     "ifsou.item.WundleCore.Fishing.LongPress": "使用副手的钓鱼竿自动钓鱼",
     "ifsou.advancement.WundleCore.Fishing.title": "Mojang做不到",
+
+    "ifsou.item.WundleCore.IronHead": "法袋核心：铁头功",
+    "ifsou.item.WundleCore.IronHead.HitBlock": "消耗TNT删除基岩",
+    "ifsou.advancement.WundleCore.IronHead.title": "不如龙蛋",
     
     
     "ifsou.advancement.nutlet/spell.description": "可以写在第2页上的子咒法: help, recipe",

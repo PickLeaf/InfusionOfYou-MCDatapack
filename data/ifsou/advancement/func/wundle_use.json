@@ -14,8 +14,8 @@
             "conditions": {
                 "item": {
                     "components": {
-                        "minecraft:custom_data": {
-                            "id": "ifsou:wundle"
+                        "minecraft:enchantments": {
+                            "ifsou:wundle": 1
                         }
                     }
                 }

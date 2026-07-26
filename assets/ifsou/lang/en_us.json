@@ -11,9 +11,11 @@
     "ifsou.lore.useRemainder": "Return after use: ",
     "ifsou.lore.whenLoadUse": "Right-click while loading: ",
     "ifsou.lore.whenLoadLongPress": "Hold down the right mouse button while loading: ",
+    "ifsou.lore.whenLoadHitBlock": "Hit block while loading: ",
     "ifsou.lore.whenLoadHitEntity": "Hit entity while loading: ",
 
     "ifsou.item.Wundle": "Wundle",
+    "ifsou.advancement.Wundle.title": "Not a Stick",
     "ifsou.dialog.Wundle.msg1": "Needs to be put into the Wundle Core for use",
     "ifsou.dialog.Wundle.msg2": "Only the Wundle Core added last will take effect",
     "ifsou.dialog.Wundle.msg3": "Use the %s key to cycle through Wundle Core",
@@ -23,21 +25,25 @@
     "ifsou.item.WundleCore.Snowball.title": "What's the Use?",
 
     "ifsou.item.WundleCore.WindCharge": "Wundle Core: Wind Charge",
-    "ifsou.item.WundleCore.WindCharge.use": "Consume 4 xp to shot a Wind Charge",
+    "ifsou.item.WundleCore.WindCharge.use": "Consume 4 XP to shot a Wind Charge",
     "ifsou.item.WundleCore.WindCharge.title": "Typhoon is Coming",
     
     "ifsou.item.WundleCore.EnderPearl": "Wundle Core: Ender Pearl",
-    "ifsou.item.WundleCore.EnderPearl.use": "Consume 10 xp to make a Ender Pearl",
+    "ifsou.item.WundleCore.EnderPearl.use": "Consume 10 XP to make a Ender Pearl",
     "ifsou.item.WundleCore.EnderPearl.title": "Nearby Gateway",
     
     "ifsou.item.WundleCore.Fire": "Wundle Core: Fire",
-    "ifsou.item.WundleCore.Fire.use": "Consume 5 xp to shot a Fire Charge",
-    "ifsou.item.WundleCore.Fire.HitEntity": "Consume 5 xp to ignite entity for 5 seconds",
+    "ifsou.item.WundleCore.Fire.use": "Consume 5 XP to shot a Fire Charge",
+    "ifsou.item.WundleCore.Fire.HitEntity": "Consume 5 XP to ignite entity for 5 seconds",
     "ifsou.item.WundleCore.Fire.title": "911",
     
     "ifsou.item.WundleCore.Fishing": "Wundle Core: Fishing",
-    "ifsou.item.WundleCore.Fishing.LongPress": "Automatically fish using the offhand fishing rod",
+    "ifsou.item.WundleCore.Fishing.LongPress": "Automatically fish using the offhand Fishing Rod",
     "ifsou.item.WundleCore.Fishing.title": "Mojang Can't Do It",
+
+    "ifsou.item.WundleCore.IronHead": "Wundle Core: Iron Head",
+    "ifsou.item.WundleCore.IronHead.HitBlock": "Consume TNT to delete Bedrock",
+    "ifsou.advancement.WundleCore.IronHead.title": "Not as Good as a Dragon Egg",
 
     
     "ifsou.advancement.nutlet/spell.description": "Sub-spells that can be written on the Page 2: help, recipe",

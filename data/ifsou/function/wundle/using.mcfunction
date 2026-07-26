@@ -11,14 +11,9 @@ execute unless entity \
     run return run \
         function ifsou:wundle/use_start
 
-execute if data storage ifsou:var wundle.longPress \
-    run function ifsou:wundle/long_press
-
-function ifsou:wundle/toast_core
 data modify storage ifsou:var wundle.handler \
     set from entity @s SelectedItem.components.\
-    minecraft:bundle_contents[0].components.\
-    "minecraft:custom_data"."ifsou:wundle_core".using
+    "minecraft:custom_data"."ifsou:current_core".using
 function ifsou:wundle/macro \
     with storage ifsou:var wundle
 data remove storage ifsou:var wundle

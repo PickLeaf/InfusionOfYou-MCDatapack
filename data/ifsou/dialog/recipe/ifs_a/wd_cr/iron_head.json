@@ -1,0 +1,100 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.item.WundleCore.IronHead"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.item.WundleCore.IronHead.HitBlock"
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:golden_pickaxe",
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionItem"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:lever",
+                        "minecraft:iron_trapdoor",
+                        "minecraft:tnt",
+                        {
+                            "id": "minecraft:piston",
+                            "count": 2
+                        },
+                        {
+                            "id": "minecraft:cobblestone",
+                            "count": 2
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:lever",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:iron_trapdoor",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:tnt",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:piston",
+                "count": 2
+            },
+            "description": {
+                "contents": "2",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:cobblestone",
+                "count": 2
+            },
+            "description": {
+                "contents": "2",
+                "width": 20
+            }
+        }
+    ]
+}

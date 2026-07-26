@@ -1,33 +1,30 @@
 {
-    "parent": "ifsou:wundle",
+    "parent": "ifsou:root",
     "display": {
         "title": {
-            "translate": "ifsou.advancement.WundleCore.Fishing.title"
+            "translate": "ifsou.advancement.Wundle.title"
         },
         "description": {
             "translate": "ifsou.advancement.*2.description",
             "with": [
                 {
-                    "translate": "ifsou.item.WundleCore.Fishing"
+                    "translate": "ifsou.item.Wundle"
                 }
             ]
         },
         "icon": {
-            "id": "minecraft:firework_star",
-            "components": {
-                "minecraft:item_model": "ifsou:wundle_core/fishing"
-            }
+            "id": "minecraft:bundle"
         }
     },
     "criteria": {
-        "fishing": {
+        "wundle": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
                         "predicates": {
                             "minecraft:custom_data": {
-                                "id": "ifsou:fishing_wundle_core"
+                                "id": "ifsou:wundle"
                             }
                         }
                     }
@@ -37,7 +34,7 @@
     },
     "requirements": [
         [
-            "fishing"
+            "wundle"
         ]
     ]
 }

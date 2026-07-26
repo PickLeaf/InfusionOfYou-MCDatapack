@@ -1,5 +1,5 @@
 {
-    "parent": "ifsou:root",
+    "parent": "ifsou:wundle",
     "display": {
         "title": {
             "translate": "ifsou.advancement.WundleCore.Snowball.title"
