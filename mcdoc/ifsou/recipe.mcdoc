@@ -1,0 +1,26 @@
+dispatch minecraft:storage["ifsou:recipe"] to Recipe
+
+use ::java::util::text::Text
+
+struct Recipe {
+    IfsA: InfusionAltar,
+}
+
+struct InfusionAltar {
+    running: struct {
+        [any]: IfsARunningLine,
+    },
+    display: [IfsADisplayLine],
+}
+
+struct IfsARunningLine {
+    color: #[color="composite_rgb"] int,
+    preMatch: #[id="function"] string,
+    absorbing?: #[id="function"] string,
+    output: #[id="function"] string,
+}
+
+struct IfsADisplayLine {
+    button_label: Text,
+    dialog: #[id="dialog"] string,
+}

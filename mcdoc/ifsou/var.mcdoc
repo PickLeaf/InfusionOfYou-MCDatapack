@@ -1,0 +1,69 @@
+dispatch minecraft:storage["ifsou:var"] to var
+
+dispatch minecraft:entity[marker] to entityData
+
+use ::java::world::item::ItemBase
+use ::java::world::item::ItemStack
+use ::java::data::advancement::predicate::EnchantmentPredicate
+use ::ifsou::recipe::InfusionAltar
+
+struct var {
+    running: struct {
+        tick?: int,
+        stop?: BOOL,
+        targetEntity?: HexUUID,
+        structure_check?: struct {
+            x: int,
+            y: int,
+            z: int,
+            func: #[id="function"] string,
+        },
+        items?: [ItemStack],
+        hash?: #[nbt] string,
+        absorbingItem?: struct {
+            id: #[id="item"] string,
+            component?: ItemBase,
+        },
+        UUID?: HexUUID,
+        PlayerName?: #[match_regex="[a-z0-9_]{1,16}"] string,
+        had_log?: BOOL,
+        log?: BlockCoordinates,
+        logs?: [BlockCoordinates],
+        alreayAdded: [BlockCoordinates],
+    },
+    depth_digger?: float,
+}
+
+struct entityData {
+    data: struct {
+        "ifsou:running"?: (
+            struct {
+                logs: [BlockCoordinates],
+            } |
+        ),
+        "ifsou:trigger"?: struct {
+            cacheHash: #[nbt] string,
+            items: [ItemStack],
+            R: InfusionAltar,
+        },
+        "ifsou:player"?: struct {
+            UUID: HexUUID,
+            enchantments?: EnchantmentPredicate,
+        },
+    },
+}
+
+enum(byte) BOOL {
+    TRUE = 1b,
+    FALSE = 0b,
+}
+
+type HexUUID = (
+    #[match_regex="[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}"] string |
+)
+
+type BlockCoordinates = struct {
+    x: int,
+    y: int,
+    z: int,
+}

@@ -8,6 +8,7 @@
     "ifsou.machine.IfsA.name": "Infusion Altar",
     
     "ifsou.info.wrong_block": "You must hit a %s to setup %s",
+    "ifsou.info.no_": "No %s",
     "ifsou.lore.useRemainder": "Return after use: ",
     "ifsou.lore.whenLoadUse": "Right-click while loading: ",
     "ifsou.lore.whenLoadLongPress": "Hold down the right mouse button while loading: ",
@@ -70,7 +71,10 @@
     "ifsou.advancement.GlassBreaker.title": "Did %s Leave You Behind?",
     "ifsou.advancement.Multitool.title": "What an Ugly Thing",
     
+    "ifsou.advancement.Mannequin.title": "This is Him",
+    
     "ifsou.dialog.infusionItem": "Item to do Infusion",
+    "ifsou.dialog.infusionEntity": "Entity to do Infusion",
     "ifsou.dialog.infusionMaterials": "Materials Infusion need",
     "ifsou.dialog.enchantInfusion": "This effect of infusion is Enchantment",
     "ifsou.dialog.Conflict": "Conflicts with %s enchantments",
@@ -125,6 +129,11 @@
     
     "ifsou.enhance.Eradicate": "Eradicate",
     "ifsou.dialog.Eradicate.msg1": "Chain destroy the gravity blocks above and below",
+
+    "ifsou.entity.Mannequin": "Mannequin",
+    "ifsou.info.Mannequin.noName": "Villager Untitled",
+    "ifsou.dialog.Mannequin.msg1": "You tried to turn a villager into a player, but failed",
+    "ifsou.dialog.Mannequin.lore": "Needs to be named the same as the player",
 
     "ifsou.dialog.IfsA.title": "Infusion Guide",
     "ifsou.dialog.IfsA.msg1": "Place the item to do Infusion in the %s at the center of the altar",

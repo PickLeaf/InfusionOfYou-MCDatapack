@@ -1,0 +1,1 @@
+$execute as $(targetEntity) run function ifsou:recipe/ifs_a/output/mannequin/villager

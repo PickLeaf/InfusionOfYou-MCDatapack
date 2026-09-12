@@ -19,6 +19,7 @@ data modify storage ifsou:var structure_check.func \
 # - summon
 execute positioned ~ ~-2 ~ \
     summon minecraft:marker \
+    rotated 0 0 \
     run function ifsou:util/summon_marker
 # store marker UUID
 data modify block ~ ~ ~ \
@@ -32,7 +33,7 @@ data modify storage nutlet:var schematic set value \
     {tick:0, transformation:{\
         scale:[1.4f, 1.4f, 1.4f], translation:[-0.7f, -0.6f, -0.7f]},\
     callback:"ifsou:util/get_hex_uuid",\
-    bright:15, id:"minecraft:gold_block"}
+    bright:15, id:"gold_block"}
 function nutlet:-m/schematic/block
 # store display UUID
 data modify block ~ ~ ~ \

@@ -8,6 +8,7 @@
     "ifsou.machine.IfsA.name": "注魔祭坛",
 
     "ifsou.info.wrong_block": "你必须击打%s来设置%s",
+    "ifsou.info.no_": "没%s",
     "ifsou.lore.useRemainder": "使用后返还：",
     "ifsou.lore.whenLoadUse": "装载时右键：",
     "ifsou.lore.whenLoadLongPress": "装载时长按右键：",
@@ -70,7 +71,10 @@
     "ifsou.advancement.GlassBreaker.title": "你被%s落下了吗？",
     "ifsou.advancement.Multitool.title": "何等丑陋的东西",
     
+    "ifsou.advancement.Mannequin.title": "这就是Him",
+    
     "ifsou.dialog.infusionItem": "被注魔的物品",
+    "ifsou.dialog.infusionEntity": "被注魔的实体",
     "ifsou.dialog.infusionMaterials": "注魔所需的材料",
     "ifsou.dialog.enchantInfusion": "此注魔效果是一个魔咒",
     "ifsou.dialog.Conflict": "与%s附魔冲突",
@@ -126,6 +130,11 @@
     "ifsou.enhance.Eradicate": "除根",
     "ifsou.dialog.Eradicate.msg1": "连锁破坏上下的重力方块",
 
+    "ifsou.entity.Mannequin": "玩家模型",
+    "ifsou.info.Mannequin.noName": "村民未命名",
+    "ifsou.dialog.Mannequin.msg1": "你妄图使用村民制作一个玩家，但失败了",
+    "ifsou.dialog.Mannequin.lore": "需要被命名为与玩家相同的名称",
+    
     "ifsou.dialog.IfsA.help.title": "注魔指南",
     "ifsou.dialog.IfsA.help.msg1": "在祭坛中间的%s放置要被注魔的物品",
     "ifsou.dialog.IfsA.help.msg2": "在范围内的%s放置注魔所需的材料",

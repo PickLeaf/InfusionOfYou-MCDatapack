@@ -1,0 +1,125 @@
+{
+    "type": "minecraft:notice",
+    "title": {
+        "translate": "ifsou.entity.Mannequin"
+    },
+    "body": [
+        {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.Mannequin.msg1"
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:villager_spawn_egg",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "entity.minecraft.villager"
+                    },
+                    "minecraft:lore": [
+                        {
+                            "translate": "ifsou.dialog.Mannequin.lore",
+                            "italic": false,
+                            "color": "aqua"
+                        }
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionEntity"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:bundle",
+                "components": {
+                    "minecraft:item_name": {
+                        "translate": "ifsou.dialog.infusionMaterials"
+                    },
+                    "minecraft:bundle_contents": [
+                        "minecraft:dispenser",
+                        "minecraft:echo_shard",
+                        {
+                            "id": "minecraft:ender_eye",
+                            "count": 2
+                        },
+                        "minecraft:lingering_potion",
+                        "minecraft:rotten_flesh",
+                        "minecraft:wither_skeleton_skull"
+                    ]
+                }
+            },
+            "description": {
+                "contents": {
+                    "translate": "ifsou.dialog.infusionMaterials"
+                },
+                "width": 100
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:dispenser",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:echo_shard",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:ender_eye",
+                "count": 2
+            },
+            "description": {
+                "contents": "2",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": {
+                "id": "minecraft:lingering_potion",
+                "count": 1,
+                "components": {
+                    "minecraft:potion_contents": {
+                        "potion": "minecraft:strong_healing"
+                    }
+                }
+            },
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:rotten_flesh",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        },
+        {
+            "type": "minecraft:item",
+            "item": "minecraft:wither_skeleton_skull",
+            "description": {
+                "contents": "1",
+                "width": 20
+            }
+        }
+    ]
+}

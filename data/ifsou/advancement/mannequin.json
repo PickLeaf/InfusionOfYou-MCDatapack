@@ -1,0 +1,32 @@
+{
+    "parent": "ifsou:root",
+    "display": {
+        "title": {
+            "translate": "ifsou.advancement.Mannequin.title"
+        },
+        "description": {
+            "translate": "ifsou.advancement.*.description",
+            "with": [
+                {
+                    "translate": "ifsou.entity.Mannequin"
+                }
+            ]
+        },
+        "icon": {
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": "NotShameToBeLast"
+            }
+        }
+    },
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "requirements": [
+        [
+            "impossible"
+        ]
+    ]
+}

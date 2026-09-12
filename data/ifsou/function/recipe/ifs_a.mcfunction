@@ -1,6 +1,6 @@
 # # 取消下行注释用 Datapack Helper Plus 插件Ctrl点击跳转
 # #  uncomment under line, use DHP, ctrl+click to redirct 
-# function ifsou:ifs_a/work/recipe/get_macro
+function ifsou:ifs_a/work/recipe/get_macro
 
 # 马脚
 data modify storage ifsou:recipe \
@@ -237,4 +237,20 @@ data modify storage ifsou:recipe \
         translate: "ifsou.item.WundleCore.IronHead",\
         "color": "#af8f55"},\
     dialog: "ifsou:recipe/ifs_a/wd_cr/iron_head"}
+
+
+
+# 玩家模型 minecraft:mannequin
+data modify storage ifsou:recipe \
+    IfsA.running.'{"minecraft:dispenser":1,"minecraft:echo_shard":1,"minecraft:ender_eye":2,"minecraft:lingering_potion":1,"minecraft:rotten_flesh":1,"minecraft:wither_skeleton_skull":1}' set value \
+    {color: 12829635,\
+    preMatch: "ifsou:recipe/ifs_a/pre_match/mannequin",\
+    absorbing: "ifsou:recipe/ifs_a/absorbing/mannequin",\
+    output: "ifsou:recipe/ifs_a/output/mannequin"}
+data modify storage ifsou:recipe \
+    IfsA.display append value \
+    {button_label: {\
+        translate: "ifsou.entity.Mannequin",\
+        color: "#c3c3c3"},\
+    dialog: "ifsou:recipe/ifs_a/mannequin"}
 
