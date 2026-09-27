@@ -133,6 +133,7 @@
     "ifsou.entity.Mannequin": "Mannequin",
     "ifsou.info.Mannequin.noName": "Villager Untitled",
     "ifsou.dialog.Mannequin.msg1": "You tried to turn a villager into a player, but failed",
+    "ifsou.dialog.Mannequin.msg2": "Rumor has it that standing on a 4-level beacon built from top to bottom using %s, %s, %s, %s can call back the souls of the dead.",
     "ifsou.dialog.Mannequin.lore": "Needs to be named the same as the player",
 
     "ifsou.dialog.IfsA.title": "Infusion Guide",

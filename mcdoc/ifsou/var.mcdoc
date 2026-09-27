@@ -1,7 +1,5 @@
 dispatch minecraft:storage["ifsou:var"] to var
 
-dispatch minecraft:entity[marker] to entityData
-
 use ::java::world::item::ItemBase
 use ::java::world::item::ItemStack
 use ::java::data::advancement::predicate::EnchantmentPredicate

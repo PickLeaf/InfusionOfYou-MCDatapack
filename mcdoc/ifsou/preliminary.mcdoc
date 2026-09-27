@@ -1,0 +1,12 @@
+enum(byte) Bool {
+    TRUE = 1b,
+    FALSE = 0b,
+}
+
+type HexUUID = (
+    #[match_regex="[a-z0-9]{8}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{12}"] string |
+)
+
+type PlayerName = (
+    #[match_regex="[a-z0-9_]{3,16}"] string |
+)

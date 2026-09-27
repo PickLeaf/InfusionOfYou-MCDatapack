@@ -11,6 +11,26 @@
             }
         },
         {
+            "type": "minecraft:plain_message",
+            "contents": {
+                "translate": "ifsou.dialog.Mannequin.msg2",
+                "with": [
+                    {
+                        "translate": "block.minecraft.netherite_block"
+                    },
+                    {
+                        "translate": "block.minecraft.diamond_block"
+                    },
+                    {
+                        "translate": "block.minecraft.gold_block"
+                    },
+                    {
+                        "translate": "block.minecraft.emerald_block"
+                    }
+                ]
+            }
+        },
+        {
             "type": "minecraft:item",
             "item": {
                 "id": "minecraft:villager_spawn_egg",

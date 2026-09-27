@@ -133,6 +133,7 @@
     "ifsou.entity.Mannequin": "玩家模型",
     "ifsou.info.Mannequin.noName": "村民未命名",
     "ifsou.dialog.Mannequin.msg1": "你妄图使用村民制作一个玩家，但失败了",
+    "ifsou.dialog.Mannequin.msg2": "传言站在从上至下依次使用%s,%s,%s,%s搭建的4级信标上可以召回死去的灵魂",
     "ifsou.dialog.Mannequin.lore": "需要被命名为与玩家相同的名称",
     
     "ifsou.dialog.IfsA.help.title": "注魔指南",

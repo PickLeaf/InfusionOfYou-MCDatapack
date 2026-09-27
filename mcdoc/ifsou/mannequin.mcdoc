@@ -1,0 +1,11 @@
+dispatch minecraft:storage["ifsou:mannequin"] to mannequin
+
+use ::ifsou::preliminary::PlayerName
+use ::ifsou::preliminary::Bool
+
+struct mannequin {
+    Pos: [double @ 3],
+    name: PlayerName,
+    continue: byte,
+    punishment: int
+}

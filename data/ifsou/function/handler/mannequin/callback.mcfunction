@@ -1,0 +1,1 @@
+ride @s mount @n[distance=0..1,tag=IfsOU.rideTarget]

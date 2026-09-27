@@ -1,0 +1,1807 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:beacon",
+                    "nbt": "{Levels:4}"
+                }
+            },
+            "offsetY": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:netherite_block"
+                }
+            },
+            "offsetY": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:netherite_block"
+                }
+            },
+            "offsetY": -2,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:netherite_block"
+                }
+            },
+            "offsetY": -2,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:netherite_block"
+                }
+            },
+            "offsetY": -2,
+            "offsetX": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:netherite_block"
+                }
+            },
+            "offsetY": -2,
+            "offsetX": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:netherite_block"
+                }
+            },
+            "offsetY": -2,
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:netherite_block"
+                }
+            },
+            "offsetY": -2,
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:netherite_block"
+                }
+            },
+            "offsetY": -2,
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:netherite_block"
+                }
+            },
+            "offsetY": -2,
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 2,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 2,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 2,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 2,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 2,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 1,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 1,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 0,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": 0,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": -1,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": -1,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": -2,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": -2,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": -2,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": -2,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:diamond_block"
+                }
+            },
+            "offsetY": -3,
+            "offsetX": -2,
+            "offsetZ": 2
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -3,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -3,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -3,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -3,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -3,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -3,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -3,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -2,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -2,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -2,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -2,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -2,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -2,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -2,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -1,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -1,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -1,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -1,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": -1,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 0,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 0,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 0,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 0,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 0,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 0,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 0,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 1,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 1,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 1,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 1,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 1,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 2,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 2,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 2,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 2,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 2,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 2,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 2,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 3,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 3,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 3,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 3,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 3,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 3,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:gold_block"
+                }
+            },
+            "offsetY": -4,
+            "offsetX": 3,
+            "offsetZ": 3
+        }                ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -4,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -4,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -4,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -4,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -4,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -4,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -4,
+            "offsetZ": 3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -3,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -3,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -3,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -3,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -3,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -3,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -3,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -2,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -2,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -2,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -2,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -2,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -2,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -2,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -1,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -1,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -1,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -1,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -1,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 0,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 0,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 0,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 0,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 0,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 0,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 0,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 1,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 1,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 1,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 1,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 1,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 1,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 1,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 2,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 2,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 2,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 2,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 2,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 2,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 2,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 3,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 3,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 3,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 3,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 3,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 3,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 3,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 4,
+            "offsetZ": -3
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 4,
+            "offsetZ": -2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 4,
+            "offsetZ": -1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 4,
+            "offsetZ": 0
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 4,
+            "offsetZ": 1
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 4,
+            "offsetZ": 2
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 4,
+            "offsetZ": 3
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -4,
+            "offsetZ": -4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -3,
+            "offsetZ": -4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -2,
+            "offsetZ": -4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -1,
+            "offsetZ": -4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 0,
+            "offsetZ": -4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 1,
+            "offsetZ": -4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 2,
+            "offsetZ": -4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 3,
+            "offsetZ": -4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 4,
+            "offsetZ": -4
+        }        ,
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -4,
+            "offsetZ": 4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -3,
+            "offsetZ": 4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -2,
+            "offsetZ": 4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": -1,
+            "offsetZ": 4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 0,
+            "offsetZ": 4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 1,
+            "offsetZ": 4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 2,
+            "offsetZ": 4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 3,
+            "offsetZ": 4
+        },
+        {
+            "condition": "minecraft:location_check",
+            "predicate": {
+                "block": {
+                    "blocks": "minecraft:emerald_block"
+                }
+            },
+            "offsetY": -5,
+            "offsetX": 4,
+            "offsetZ": 4
+        }
+    ]
+}

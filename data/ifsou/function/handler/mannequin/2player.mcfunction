@@ -1,0 +1,1 @@
+$execute as $(name) run function ifsou:handler/mannequin/player
