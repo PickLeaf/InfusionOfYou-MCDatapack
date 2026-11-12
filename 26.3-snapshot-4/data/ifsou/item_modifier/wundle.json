@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:sequence",
+    "functions": [
+        {
+            "type": "minecraft:set_name",
+            "target": "item_name",
+            "name": {
+                "translate": "ifsou.item.Wundle"
+            }
+        },
+        {
+            "type": "minecraft:set_enchantments",
+            "add": false,
+            "enchantments": {
+                "ifsou:wundle": 1
+            }
+        },
+        {
+            "type": "minecraft:set_custom_data",
+            "tag": {
+                "id": "ifsou:wundle"
+            }
+        },
+        {
+            "type": "minecraft:set_components",
+            "components": {
+                "minecraft:enchantment_glint_override": false,
+                "minecraft:tooltip_display": {
+                    "hidden_components": [
+                        "minecraft:enchantments"
+                    ]
+                }
+            }
+        }
+    ]
+}

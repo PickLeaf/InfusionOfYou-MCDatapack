@@ -6,16 +6,16 @@ use ::java::data::advancement::predicate::EnchantmentPredicate
 use ::ifsou::recipe::InfusionAltar
 
 struct var {
+    structure_check?: struct {
+        x: int,
+        y: int,
+        z: int,
+        func: #[id="function"] string,
+    },
     running: struct {
         tick?: int,
         stop?: BOOL,
         targetEntity?: HexUUID,
-        structure_check?: struct {
-            x: int,
-            y: int,
-            z: int,
-            func: #[id="function"] string,
-        },
         items?: [ItemStack],
         hash?: #[nbt] string,
         absorbingItem?: struct {

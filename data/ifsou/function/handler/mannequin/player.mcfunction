@@ -21,11 +21,9 @@ item replace entity @s weapon.mainhand \
 item replace entity @s weapon.offhand \
     from entity @n[distance=..1,tag=IfsOU.mannequinTarget] \
     weapon.offhand
-kill @n[distance=..1,tag=IfsOU.mannequinTarget]
-tp @n[distance=..1,tag=IfsOU.mannequinTarget] \
+tp @n[distance=0..,tag=IfsOU.mannequinTarget] \
     ~ -9999999 ~
-summon minecraft:tnt ~ ~ ~ \
-    {explosion_power: 16, fuse: -1}
+kill @n[distance=0..,tag=IfsOU.mannequinTarget]
 effect give @s minecraft:resistance 1 255
 gamemode survival
 function ifsou:handler/mannequin/minus_health

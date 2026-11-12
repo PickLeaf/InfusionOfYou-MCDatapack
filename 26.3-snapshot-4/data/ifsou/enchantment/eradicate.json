@@ -1,0 +1,32 @@
+{
+    "anvil_cost": 0,
+    "description": {
+        "translate": "ifsou.enhance.Eradicate",
+        "color": "#79553a"
+    },
+    "effects": {
+        "minecraft:hit_block": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "ifsou:enhance/eradicate"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "min_cost": {
+        "base": 0,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:shovels",
+    "primary_items": [],
+    "weight": 1
+}

@@ -1,3 +1,5 @@
+rotate @s facing entity @p[distance=0..5] feet
+
 data remove storage ifsou:mannequin continue
 execute unless predicate ifsou:mannequin_beacon \
     run return fail

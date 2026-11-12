@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:sequence",
+    "functions": [
+        {
+            "type": "minecraft:copy_custom_data",
+            "source": {
+                "type": "minecraft:context",
+                "target": "this"
+            },
+            "ops": [
+                {
+                    "op": "replace",
+                    "source": "item.components.minecraft:bundle_contents",
+                    "target": "ifsou:wundle_cores"
+                }
+            ]
+        },
+        {
+            "type": "minecraft:copy_custom_data",
+            "source": {
+                "type": "minecraft:context",
+                "target": "this"
+            },
+            "ops": [
+                {
+                    "op": "replace",
+                    "source": "item.components.minecraft:bundle_contents[0].components.minecraft:custom_data.ifsou:wundle_core",
+                    "target": "ifsou:current_core"
+                }
+            ]
+        },
+        {
+            "type": "minecraft:set_contents",
+            "component": "minecraft:bundle_contents",
+            "entries": []
+        }
+    ]
+}

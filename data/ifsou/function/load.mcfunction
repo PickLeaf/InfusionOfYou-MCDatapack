@@ -1,8 +1,6 @@
 scoreboard objectives add IfsOU.Clac dummy
 scoreboard objectives add IfsOU.ResurrectionPunishment dummy
 
-give @s book[minecraft:bundle_contents=["acacia_boat"]]
-
 function ifsou:recipe/load
 
 # inject version, print info of datapack

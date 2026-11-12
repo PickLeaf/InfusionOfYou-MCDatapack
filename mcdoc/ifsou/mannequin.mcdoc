@@ -1,11 +1,14 @@
 dispatch minecraft:storage["ifsou:mannequin"] to mannequin
 
 use ::ifsou::preliminary::PlayerName
-use ::ifsou::preliminary::Bool
 
 struct mannequin {
+    // 用于检测玩家位置与玩家模型是否重叠
     Pos: [double @ 3],
+    // 玩家模型显示的玩家ID
     name: PlayerName,
+    // 程序流控制标志位
     continue: byte,
+    // 生命上限惩罚
     punishment: int
 }

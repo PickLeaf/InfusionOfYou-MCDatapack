@@ -1,0 +1,7 @@
+{
+    "type": "minecraft:sequence",
+    "functions": [
+        "ifsou:horse_foot/enchantment",
+        "ifsou:horse_foot/attributes"
+    ]
+}
