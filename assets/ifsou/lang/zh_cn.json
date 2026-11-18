@@ -103,6 +103,7 @@
     "ifsou.dialog.TunnelBoring.msg2": "只对能大量自然生成的石头类方块有效",
 
     "ifsou.infusion.PhantomModel": "虚幻模型",
+    "ifsou.info.PhantomModel.noName": "%s未命名",
     "ifsou.dialog.PhantomModel.msg1": "为物品附着虚假的物品模型",
     "ifsou.dialog.PhantomModel.msg2": "由命名牌的名称指定",
     "ifsou.dialog.PhantomModel.msg3": "使用F3+H查看完整的物品ID",

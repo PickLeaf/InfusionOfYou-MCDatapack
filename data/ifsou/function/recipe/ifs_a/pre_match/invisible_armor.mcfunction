@@ -1,7 +1,3 @@
-execute if data block ~ ~ ~ item.components.\
-    "minecraft:lore"[{\
-        "translate": "ifsou.enhance.InvisibleArmor"}] \
-    run return fail
 execute unless data storage ifsou:var \
     running.items[{id:"minecraft:potion"}].components.\
     "minecraft:potion_contents"{potion:"minecraft:long_invisibility"} \

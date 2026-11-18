@@ -103,6 +103,7 @@
     "ifsou.dialog.TunnelBoring.msg2": "Only works on stone-type blocks that can naturally generate in large amounts",
 
     "ifsou.infusion.PhantomModel": "Phantom Model",
+    "ifsou.info.PhantomModel.noName": "%s unnanme",
     "ifsou.dialog.PhantomModel.msg1": "Attach a fake item model to an item",
     "ifsou.dialog.PhantomModel.msg2": "Specified by the name on the name tag",
     "ifsou.dialog.PhantomModel.msg3": "Use F3+H to see the full item ID",

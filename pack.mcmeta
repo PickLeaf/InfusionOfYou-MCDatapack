@@ -1,6 +1,8 @@
 {
     "pack": {
-        "min_format": 84,
+        "min_format": [
+            84
+        ],
         "max_format": 121,
         "description": [
             {
@@ -37,6 +39,14 @@
                 ],
                 "max_format": 99999,
                 "directory": "26.3-snapshot-4"
+            },
+            {
+                "min_format": [
+                    115,
+                    0
+                ],
+                "max_format": 99999,
+                "directory": "26.3-snapshot-7"
             },
             {
                 "min_format": [

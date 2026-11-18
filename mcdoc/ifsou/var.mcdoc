@@ -29,7 +29,13 @@ struct var {
         logs?: [BlockCoordinates],
         alreayAdded: [BlockCoordinates],
     },
+    //用于显示深度矿工的挖掘加速数值
     depth_digger?: float,
+    //用于限制马脚魔咒1tick只执行1次
+    horse_foot?: struct {
+        last: int,
+        now: int,
+    },
 }
 
 struct entityData {
