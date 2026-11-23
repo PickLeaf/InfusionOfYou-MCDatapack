@@ -2,7 +2,8 @@
     "env": {
         "gameVersion": "26.1",
         "dependencies": [
-            "../Nutlet-MCDatapack"
+            "./../Nutlet-MCDatapack",
+            "./../Nutlet*.zip"
         ]
     }
 }

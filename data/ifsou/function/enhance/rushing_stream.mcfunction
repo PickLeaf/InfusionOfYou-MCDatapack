@@ -13,7 +13,7 @@ execute align xyz \
 data modify storage nutlet:var uuid.array \
     set from entity @s UUID
 function nutlet:-m/hex_uuid
-#
+# 放置tick实体
 data modify storage nutlet:var tick set value \
     {handler: "ifsou:enhance/rushing_stream/tick",\
     callback: "ifsou:enhance/rushing_stream/callback"}

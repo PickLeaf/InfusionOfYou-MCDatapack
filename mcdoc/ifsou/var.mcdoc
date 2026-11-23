@@ -1,9 +1,10 @@
 dispatch minecraft:storage["ifsou:var"] to var
 
+use ::java::data::dialog::Button
 use ::java::world::item::ItemBase
 use ::java::world::item::ItemStack
 use ::java::data::advancement::predicate::EnchantmentPredicate
-use ::ifsou::recipe::InfusionAltar
+use ::mcdoc::ifsou::recipe::InfusionAltar
 
 struct var {
     structure_check?: struct {
@@ -11,6 +12,12 @@ struct var {
         y: int,
         z: int,
         func: #[id="function"] string,
+    },
+    kill_timer?: struct {
+        timer_tick: int,
+    },
+    dialog?: struct {
+        actions?: [Button],
     },
     running: struct {
         tick?: int,
@@ -24,10 +31,6 @@ struct var {
         },
         UUID?: HexUUID,
         PlayerName?: #[match_regex="[a-z0-9_]{1,16}"] string,
-        had_log?: BOOL,
-        log?: BlockCoordinates,
-        logs?: [BlockCoordinates],
-        alreayAdded: [BlockCoordinates],
     },
     //用于显示深度矿工的挖掘加速数值
     depth_digger?: float,
@@ -36,15 +39,17 @@ struct var {
         last: int,
         now: int,
     },
+    rushing_stream?: struct {
+        had_log?: BOOL,
+        log?: (BlockCoordinates | any),
+        logs?: [[(BlockCoordinates | any)]],
+        alreayAdded?: [BlockCoordinates],
+        currentLayer?: [BlockCoordinates],
+    },
 }
 
 struct entityData {
     data: struct {
-        "ifsou:running"?: (
-            struct {
-                logs: [BlockCoordinates],
-            } |
-        ),
         "ifsou:trigger"?: struct {
             cacheHash: #[nbt] string,
             items: [ItemStack],
@@ -53,6 +58,9 @@ struct entityData {
         "ifsou:player"?: struct {
             UUID: HexUUID,
             enchantments?: EnchantmentPredicate,
+        },
+        "ifsou:rushing_stream"?: struct {
+            logs: [[BlockCoordinates]],
         },
     },
 }
