@@ -10,7 +10,7 @@ execute unless predicate ifsou:is_sneaking \
 execute unless entity @s[x_rotation=-90] \
     run return fail
     
-data modify storage ifsou:var depth_digger \
+data modify storage ifsou:var depth_digger.speed \
     set string entity @s equipment.body.components.\
     "minecraft:attribute_modifiers"[{id:"ifsou:depth_digger"}].amount \
     0 5
@@ -19,7 +19,7 @@ title @s actionbar {\
     "with":[{\
         "type":"nbt",\
         "storage":"ifsou:var",\
-        "nbt":'depth_digger',\
+        "nbt":'depth_digger.speed',\
         "interpret":true,\
         color:"#308cb0"}]}
 data remove storage ifsou:var depth_digger

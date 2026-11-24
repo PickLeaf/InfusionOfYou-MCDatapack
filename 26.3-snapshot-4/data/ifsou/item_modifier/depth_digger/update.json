@@ -12,7 +12,7 @@
                 "amount": {
                     "type": "minecraft:storage",
                     "storage": "ifsou:var",
-                    "path": "depth_digger"
+                    "path": "depth_digger.speed"
                 }
             }
         ]

@@ -3,9 +3,7 @@ execute unless block ~ ~ ~ #ifsou:mineable/eradicate \
 execute if predicate ifsou:is_sneaking \
     run return fail
 # get player UUID
-data modify storage nutlet:var uuid.array \
-    set from entity @s UUID
-function nutlet:-m/hex_uuid
+function ifsou:util/get_hex_uuid
 # kill other marker
 function ifsou:enhance/eradicate/kill \
     with storage nutlet:var uuid

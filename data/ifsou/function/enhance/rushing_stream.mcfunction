@@ -10,9 +10,7 @@ execute align xyz \
     run return run \
         scoreboard players set @s Nutlet.Clac 600
 # 传递玩家UUID
-data modify storage nutlet:var uuid.array \
-    set from entity @s UUID
-function nutlet:-m/hex_uuid
+function ifsou:util/get_hex_uuid
 # 放置tick实体
 data modify storage nutlet:var tick set value \
     {handler: "ifsou:enhance/rushing_stream/tick",\
